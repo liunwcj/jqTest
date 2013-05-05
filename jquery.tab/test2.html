@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>test2 - 类级别的插件开发</title>
+    <style type="text/css">
+        div,li,ul{ margin:0; padding:0;}
+        li{list-style:none;}
+        .mt10{ margin-top:1em;}
+        .tab-box{border: 1px solid #999; width:500px;}
+        .tab-box .hd{overflow: hidden; background-color:#CCC; zoom:1;}
+        .tab-box .hd li{ float: left; padding:5px 1em; cursor: pointer;}
+        .tab-box .hd .cur{background-color:#FFF; }
+        .tab-box .bd{ height:200px; line-height:200px; font-weight:700; text-align:center;}
+        .tab-box .bd .none{display: none;}
+    </style>
+    <script src="../jq/jquery-1.7.2.min.js"></script>
+    <script>
+        jQuery.tab = function(str,action){
+            var obj = $(str);
+            this.action = action || 'click';//设置默认值 mouseover。
+            obj.find('.hd li').bind(this.action,function(){
+                var temp = $(this).index();
+                $(this).addClass('cur').siblings().removeClass('cur');
+                obj.find('.bd div').eq(temp).show().siblings().hide();
+            });
+        }
+        $(function(){
+            $.tab('#tab1');
+            $.tab('#tab2','mouseover');
+        });
+    </script>
+</head>
+<body>
+    <div id="tab1" class="tab-box">
+        <div class="hd">
+            <ul>
+                <li class="cur">选项一</li>
+                <li>选项二</li>
+                <li>选项三</li>
+            </ul>
+        </div>
+        <div class="bd">
+            <div>选项一内容</div>
+            <div class="none">选项二内容</div>
+            <div class="none">选项三内容</div>
+        </div>
+    </div>
+
+    <div id="tab2" class="tab-box mt10">
+        <div class="hd">
+            <ul>
+                <li class="cur">选项一</li>
+                <li>选项二</li>
+                <li>选项三</li>
+            </ul>
+        </div>
+        <div class="bd">
+            <div>选项一内容</div>
+            <div class="none">选项二内容</div>
+            <div class="none">选项三内容</div>
+        </div>
+    </div>
+
+</body>
+</html>
