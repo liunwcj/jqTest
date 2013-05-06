@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>选项卡 - jq_plugin</title>
+    <style type="text/css">
+        ul,li,p{margin: 0;padding: 0;}
+        p,li{list-style:none; vertical-align: top;}
+        .box{border:1px solid #000; width:200px; display: none;}
+        .box p,.box li{ display: block; zoom:1}
+        .box a{display:block; border:1px solid #000; text-decoration: none; width:100%;}
+        .current a,.box a:hover{background-color:#C00; color:#FFF;}
+    </style>
+    <script src="../js/jquery-1.9.1.min.js"></script>
+    <script src="jquery.sel.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('#sel').sel();
+            $('#sel2').sel({content_tag:'p'});
+        });
+    </script>
+</head>
+<body>
+    <div id="sel">
+        <input class="btn" type="button" value="下拉菜单1"/>
+        <div class="box">
+            <ul>
+                <li><a href="javascript:;">选项1</a></li>
+                <li><a href="javascript:;">选项2</a></li>
+                <li><a href="javascript:;">选项3</a></li>
+                <li><a href="javascript:;">选项4</a></li>
+                <li><a href="javascript:;">选项5</a></li>
+                <li><a href="javascript:;">选项6</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="sel2">
+        <input class="btn" type="button" value="下拉菜单2"/>
+        <div class="box">
+                <p><a href="javascript:;">选项1</a></p>
+                <p><a href="javascript:;">选项2</a></p>
+                <p><a href="javascript:;">选项3</a></p>
+                <p><a href="javascript:;">选项4</a></p>
+                <p><a href="javascript:;">选项5</a></p>
+                <p><a href="javascript:;">选项6</a></p>
+        </div>
+    </div>
+
+    <hr>
+
+    <select>
+        <option>选项一</option>
+        <option>选项二</option>
+        <option selected>选项三</option>
+        <option>选项四</option>
+        <option>选项五</option>
+        <option>选项六</option>
+        <option>选项七</option>
+    </select>
+
+</body>
+</html>

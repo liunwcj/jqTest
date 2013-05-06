@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>test2</title>
+    <style type="text/css">
+        img,body, ul, li{ margin:0; padding:0; }
+        body{ _background:url(about:blank) fixed; }
+        li{ list-style:none; }
+        #test{}
+        #test li{ height:800px; width:100%; font:700 10em arial; text-align:center; overflow: hidden; vertical-align: top;}
+        #test li img{ width:100%; display: block;}
+        #menu{ position:fixed; _position:absolute; _top:expression(documentElement.scrollTop/*+documentElement.clientHeight-this.clientHeight*/); }
+        #menu .cur{ background-color:#000; color:#FFF; }
+    </style>
+    <script src="../js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#test li:even').css({backgroundColor: '#C00'});
+            $('#test li:odd').css({backgroundColor: '#CCC'});
+
+            var speed = 500;
+            var winH  = $(window).height();
+            var _window = $(window);
+            var winHlist = [];
+
+            fnwinH();
+
+            $('#test li').css({height:winH});
+            _window.resize(function(){
+                $('#test li').height(_window.height());
+                fnwinH();
+            });
+
+//            console.log('windows：'+$(window).height(),' - '+'document：' + $('body,html').height());
+            _window.scroll(function () {
+                var tmpH = $(this).scrollTop();
+
+                if (winHlist[0] <= tmpH && tmpH < winHlist[1]) {
+                    curTag(0);
+                }
+                if (winHlist[1] <= tmpH && tmpH < winHlist[2]) {
+                    curTag(1);
+                }
+                if (winHlist[2] <= tmpH && tmpH < winHlist[3]) {
+                    curTag(2);
+                }
+                if (winHlist[3] <= tmpH && tmpH < winHlist[4]) {
+                    curTag(3);
+                }
+                if (winHlist[4] <= tmpH && tmpH < winHlist[5]) {
+                    curTag(4);
+                }
+                if(winHlist[5] <= tmpH) {
+                    curTag(5);
+                }
+            });
+            $('#menu li').click(function(){
+                var _liN =$(this).index();
+                $('body,html').animate({scrollTop: (_liN * winH)},speed);
+            });
+            function curTag(index) {
+                $('#menu li').eq(index).addClass('cur').siblings().removeClass('cur');
+            }
+            function fnwinH(){
+                winHlist = [];
+                var liLength=$('#test li').length;
+                for(var i =0;i<liLength;i++){
+                    winHlist.push(_window.height()*i);
+                }
+                return winHlist;
+            }
+
+        });
+    </script>
+</head>
+<body>
+<div id="menu">
+    <ul>
+        <li class="cur">第1屏</li>
+        <li>第2屏</li>
+        <li>第3屏</li>
+        <li>第4屏</li>
+        <li>第5屏</li>
+        <li>第6屏</li>
+    </ul>
+</div>
+<div id="test">
+    <ul>
+        <li><img src="1.jpg"></li>
+        <li><img src="2.jpg"></li>
+        <li><img src="1.jpg"></li>
+        <li><img src="2.jpg"></li>
+        <li><img src="1.jpg"></li>
+        <li><img src="2.jpg"></li>
+    </ul>
+</div>
+</body>
+</html>
