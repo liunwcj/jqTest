@@ -12,14 +12,12 @@
         #test li img{ width:100%; display: block;}
         #menu{ position:fixed; _position:absolute; _top:expression(documentElement.scrollTop/*+documentElement.clientHeight-this.clientHeight*/); }
         #menu .cur{ background-color:#000; color:#FFF; }
+        #menu li{ cursor: pointer;}
     </style>
     <script src="../js/jquery-1.9.1.min.js"></script>
     <script type="text/javascript">
         $(function () {
-            $('#test li:even').css({backgroundColor: '#C00'});
-            $('#test li:odd').css({backgroundColor: '#CCC'});
-
-            var speed = 500;
+            var speed = 500; //滚动速度
             var winH  = $(window).height();
             var _window = $(window);
             var winHlist = [];
@@ -32,7 +30,6 @@
                 fnwinH();
             });
 
-//            console.log('windows：'+$(window).height(),' - '+'document：' + $('body,html').height());
             _window.scroll(function () {
                 var tmpH = $(this).scrollTop();
 
@@ -57,7 +54,7 @@
             });
             $('#menu li').click(function(){
                 var _liN =$(this).index();
-                $('body,html').animate({scrollTop: (_liN * winH)},speed);
+                $('body,html').animate({scrollTop: (_liN * _window.height())},speed);
             });
             function curTag(index) {
                 $('#menu li').eq(index).addClass('cur').siblings().removeClass('cur');
