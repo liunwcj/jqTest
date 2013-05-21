@@ -14,7 +14,7 @@
         .tab-box .bd{ height:200px; line-height:200px; font-weight:700; text-align:center; overflow: hidden;}
         .tab-box .bd .none{display: none;}
     </style>
-    <script src="../jq/jquery-1.7.2.min.js"></script>
+    <script src="../js/jquery-1.8.3.min.js"></script>
     <script type="text/javascript">
         (function($){
             $.fn.tabs = function(options){
@@ -25,8 +25,7 @@
                     hd_tag:'li',
                     content_box:'.bd',
                     content_tag:'div'
-
-                }
+                };
                 $.extend(settings,options);
                     var obj = $(this);
                     obj.find(settings.hd_box+' '+settings.hd_tag).bind(settings.action,function(){
@@ -37,8 +36,8 @@
             }
         })(jQuery);
         $(function(){
-            $('#tab1').tabs({action:'mouseover',content_tag:'p'})
-            $('#tab2').tabs({action:'hover'});
+            $('#tab1').tabs({action:'mouseover',content_tag:'p'});
+            $('#tab2').tabs({action:'hover'});//bind中'hover'事件不兼容jquery1.9.1
         });
     </script>
 </head>
