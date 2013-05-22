@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7aef97ac-cb15-4225-8db9-803b3b7a5915" name="Default" comment="" />
+    <list default="true" id="7aef97ac-cb15-4225-8db9-803b3b7a5915" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/headjs/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.tab/test2.html" afterPath="$PROJECT_DIR$/jquery.tab/test2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="jqTest.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369118732184" ignored="false" />
+    <file path="/Dummy.txt" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369205169859" ignored="false" />
     <file path="/Readme.md" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1367842417375" ignored="false" />
-    <file path="/test2.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369120516278" ignored="false" />
+    <file path="/test2.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369129655403" ignored="false" />
     <file path="/*.regexp" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1367851289250" ignored="false" />
-    <file path="$PROJECT_DIR$/../../test_ws/jsHIQ/test1.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369121400856" ignored="false" />
-    <file path="/test1.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369121376294" ignored="false" />
+    <file path="$PROJECT_DIR$/../../test_ws/jsHIQ/test1.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369216922812" ignored="false" />
+    <file path="/test1.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369216920375" ignored="false" />
     <file path="/test3.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369119722903" ignored="false" />
+    <file path="/test.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369216917578" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,22 +35,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test2.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sliderList/test2.html">
+      <file leaf-file-name="test.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/headjs/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="8" selection-start="726" selection-end="726" vertical-scroll-proportion="-14.928572">
-              <folding>
-                <marker date="1369120949059" expanded="true" signature="500:576" placeholder="{...}" />
-                <marker date="1369120949059" expanded="true" signature="525:576" placeholder="/*...*/" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test3.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jquery.tab/test3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="76" selection-start="1741" selection-end="1741" vertical-scroll-proportion="0.72350794">
+            <state line="14" column="9" selection-start="370" selection-end="370" vertical-scroll-proportion="0.37515226">
               <folding />
             </state>
           </provider>
@@ -59,6 +52,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="SYNC_SETTING" value="DONT" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
@@ -72,6 +66,8 @@
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/sliderList/test2.html" />
         <option value="$PROJECT_DIR$/jquery.tab/test3.html" />
+        <option value="$PROJECT_DIR$/jquery.tab/test2.html" />
+        <option value="$PROJECT_DIR$/headjs/test.html" />
       </list>
     </option>
   </component>
@@ -88,14 +84,14 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -135,63 +131,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sliderList" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jqTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jqTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="headjs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jqTest">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jqTest">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="sliderList">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jqTest">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jquery.tab">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../test_ws" />
-    <property name="options.searchVisible" value="true" />
+    <property name="options.lastSelected" value="settings.github" />
+    <property name="last_opened_file_path" value="E:/Program Files/Git/bin/git.exe" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -232,18 +202,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1688" height="1005" extended-state="6" />
+    <frame x="-4" y="-4" width="1688" height="1005" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17049576" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17049576" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -314,16 +284,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jquery.select/jquery.sel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="39" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery.tab/test3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jquery.tab/test2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -359,14 +319,6 @@
         <state line="45" column="30" selection-start="1755" selection-end="1755" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/grid_test.gif">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -384,24 +336,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery.tab/test2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.08038977">
+        <state line="22" column="43" selection-start="923" selection-end="923" vertical-scroll-proportion="0.589525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="42" selection-start="60" selection-end="60" vertical-scroll-proportion="0.053724054">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sliderList/test2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="8" selection-start="726" selection-end="726" vertical-scroll-proportion="-14.928572">
+        <state line="25" column="20" selection-start="864" selection-end="864" vertical-scroll-proportion="0.6967113">
           <folding>
-            <marker date="1369120949059" expanded="true" signature="500:576" placeholder="{...}" />
-            <marker date="1369120949059" expanded="true" signature="525:576" placeholder="/*...*/" />
+            <marker date="1369120949059" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1369120949059" expanded="true" signature="-1:-1" placeholder="/*...*/" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery.tab/test3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="76" selection-start="1741" selection-end="1741" vertical-scroll-proportion="0.72350794">
+        <state line="18" column="21" selection-start="752" selection-end="752" vertical-scroll-proportion="0.19610232">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/head.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="227" selection-end="227" vertical-scroll-proportion="0.1295642">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/headjs/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="9" selection-start="370" selection-end="370" vertical-scroll-proportion="0.37515226">
           <folding />
         </state>
       </provider>
