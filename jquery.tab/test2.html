@@ -19,12 +19,12 @@
         $.tab = function(str,action){
             var obj = $(str);
             this.action = action || 'click';//设置默认值 mouseover。
-            obj.find('.hd li').bind(this.action,function(){
+            obj.find('.hd li').on(this.action,function(){ // jquery 1.7 版本
                 var temp = $(this).index();
                 $(this).addClass('cur').siblings().removeClass('cur');
                 obj.find('.bd div').eq(temp).show().siblings().hide();
             });
-        }
+        };
         $(function(){
             $.tab('#tab1');
             $.tab('#tab2','mouseover');

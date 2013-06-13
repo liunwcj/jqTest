@@ -24,18 +24,22 @@
     <script type="text/javascript">
         (function($){
             $.fn.topFixed = function(options){
-                var settings = {
-                    topRange:300    /*开始滚动的距离*/
-                },_this = $(this);
-                $.extend(settings,options);
-                $(window).scroll(function(){
-                    var temp = $(this).scrollTop();
-                    if(settings.topRange < temp){
-                        _this.css('position','fixed');
-                    }else{
-                        _this.css('position','absolute');
-                    }
-                });
+                if(!-[1,] && !window.XMLHttpRequest){ /*判断IE6不执行*/
+                    return false;
+                }else{
+                    var settings = {
+                        topRange:300    /*开始滚动的距离*/
+                    },_this = $(this);
+                    $.extend(settings,options);
+                    $(window).scroll(function(){
+                        var temp = $(this).scrollTop();
+                        if(settings.topRange < temp){
+                            _this.css('position','fixed');
+                        }else{
+                            _this.css('position','absolute');
+                        }
+                    });
+                }
             }
         })(jQuery);
         $(function () {

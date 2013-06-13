@@ -3,13 +3,52 @@
 <head>
     <meta charset="utf-8">
     <title>head.js</title>
-    <style type="text/css"></style>
+    <style type="text/css">
+        body{ margin:0; padding:0; padding-top:1px;}
+        div{ display:block; border:1px solid #000; text-align:center; color:#FFF; margin-top:-1px;}
+    </style>
     <script type="text/javascript" src="../js/head.js"></script>
     <script type="text/javascript">
-        head.js('../js/jquery-1.8.3.min.js','../js/jquery-1.9.1.min.js','../js/jquery-2.0.0.min.js');
+        //获取随机颜色
+        var getRandomColor = function () {
+            return '#'+Math.floor(Math.random()*16777215).toString(16);
+//                return '#'+(Math.random()*0xffffff<<0).toString(16);
+//                return '#'+('00000'+(Math.random()*0x1000000<<0).toString(16)).slice(-6);
+        };
+        head.js('../js/jquery-1.9.1.min.js', function () {
+            var setColor = function(){
+                $('div').each(function(){
+                    $(this).css({'backgroundColor':getRandomColor(),'color':getRandomColor()});
+                });
+            }
+            setColor();
+            $(document).on('click',function(){
+                setColor();
+            });
+        });
     </script>
 </head>
 <body>
 
+    <div>header</div><div>section</div><div>footer</div>
+    <div>header</div><div>section</div><div>footer</div>
+    <div>header</div><div>section</div><div>footer</div>
+    <div>header</div><div>section</div><div>footer</div>
+    <div>header</div><div>section</div><div>footer</div>
+    <div>header</div><div>section</div><div>footer</div>
+    <div>header</div><div>section</div><div>footer</div>
+    <div>header</div><div>section</div><div>footer</div>
+    <div>header</div><div>section</div><div>footer</div>
+    <div>header</div><div>section</div><div>footer</div>
+    <div>header</div><div>section</div><div>footer</div>
+    <div>header</div><div>section</div><div>footer</div>
+    <div>header</div><div>section</div><div>footer</div>
+    <div>header</div><div>section</div><div>footer</div>
+    <div>header</div><div>section</div><div>footer</div>
+    <div>header</div><div>section</div><div>footer</div>
+    <div>header</div><div>section</div><div>footer</div>
+    <div>header</div><div>section</div><div>footer</div>
+    <div>header</div><div>section</div><div>footer</div>
+
 </body>
-</html>dd
+</html>
