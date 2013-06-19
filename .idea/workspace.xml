@@ -2,29 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7aef97ac-cb15-4225-8db9-803b3b7a5915" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery.lazyload/jquery.lazyload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery.lazyload/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loadScript/Demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loadScript/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ie.html5/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common.css" afterPath="$PROJECT_DIR$/css/common.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/grids.css" afterPath="$PROJECT_DIR$/css/grids.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.select/index.html" afterPath="$PROJECT_DIR$/jquery.select/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.topfixed/jquery.topfixed.html" afterPath="$PROJECT_DIR$/jquery.topfixed/jquery.topfixed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/headjs/test.html" afterPath="$PROJECT_DIR$/headjs/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.tab/test2.html" afterPath="$PROJECT_DIR$/jquery.tab/test2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.lazyload/test.html" afterPath="$PROJECT_DIR$/jquery.lazyload/test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.tab/test3.html" afterPath="$PROJECT_DIR$/jquery.tab/test3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jqTest.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371089377580" ignored="false" />
+    <file path="/Dummy.txt" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371603702093" ignored="false" />
     <file path="/Readme.md" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1367842417375" ignored="false" />
     <file path="/test2.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369300152640" ignored="false" />
     <file path="/*.regexp" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1367851289250" ignored="false" />
     <file path="$PROJECT_DIR$/../../test_ws/jsHIQ/test1.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369216922812" ignored="false" />
     <file path="/test1.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369276280281" ignored="false" />
     <file path="/test3.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369277760203" ignored="false" />
-    <file path="/test.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1370069040109" ignored="false" />
+    <file path="/test.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371288647062" ignored="false" />
     <file path="E:/js_Demo/test_ws/jsHIQ/test1.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369276284296" ignored="false" />
     <file path="/jquery.topfixed.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369298361718" ignored="false" />
+    <file path="/dummy.xml" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371094044314" ignored="false" />
+    <file path="/Demo.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371604250796" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +45,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test2.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sliderList/test2.html">
+      <file leaf-file-name="test.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ie.html5/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="36" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.026796589">
+            <state line="13" column="66" selection-start="455" selection-end="455" vertical-scroll-proportion="0.34835565">
               <folding>
-                <marker date="1369270897328" expanded="true" signature="500:576" placeholder="{...}" />
-                <marker date="1369270897328" expanded="true" signature="525:576" placeholder="/*...*/" />
+                <marker date="1371194036046" expanded="true" signature="293:699" placeholder="..." />
+                <marker date="1371194036046" expanded="true" signature="303:314" placeholder="/*...*/" />
+                <marker date="1371194036046" expanded="true" signature="336:682" placeholder="{...}" />
+                <marker date="1371194036046" expanded="true" signature="355:367" placeholder="/*...*/" />
+                <marker date="1371194036046" expanded="true" signature="611:672" placeholder="{...}" />
+                <marker date="1371194036046" expanded="true" signature="714:826" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jquery.lazyload/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="61" selection-start="650" selection-end="650" vertical-scroll-proportion="-12.571428">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,7 +95,9 @@
         <option value="$PROJECT_DIR$/jquery.tab/test3.html" />
         <option value="$PROJECT_DIR$/jquery.tab/test2.html" />
         <option value="$PROJECT_DIR$/headjs/test.html" />
+        <option value="$PROJECT_DIR$/ie.html5/test.html" />
         <option value="$PROJECT_DIR$/jquery.lazyload/test.html" />
+        <option value="$PROJECT_DIR$/loadScript/Demo.html" />
       </list>
     </option>
   </component>
@@ -105,7 +121,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -116,21 +132,44 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jqTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jqTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jqTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="settings.github" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="E:/js_Demo/test_ws" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="last_opened_file_path" value="E:/js_Demo/test_ws" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PHP\APMSer\APMServ5.2.6\www\htdocs\GitHub\jqTest\loadScript" />
       <recent name="F:\PHP\APMSer\APMServ5.2.6\www\htdocs\GitHub\jqTest\jquery.lazyload" />
     </key>
   </component>
@@ -159,6 +198,10 @@
       <setting name="preferredDebugBrowser" value="CHROME" />
       <method />
     </configuration>
+    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
+      <node-js-remote-debug />
+      <method />
+    </configuration>
     <configuration default="true" type="NodeunitConfigurationType" factoryName="Nodeunit">
       <setting name="nodePath" value="C:/Program Files/nodejs/node" />
       <envs />
@@ -169,8 +212,7 @@
       <setting name="jsFile" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
-      <node-js-remote-debug />
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="XSLT" factoryName="XSLT">
@@ -187,9 +229,6 @@
       <OutputType value="CONSOLE" save-to-file="false" />
       <FileType name="XML" />
       <JdkChoice value="FROM_MODULE" />
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
@@ -264,13 +303,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1688" height="1005" extended-state="0" />
+    <frame x="-4" y="-4" width="1688" height="1005" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16928658" sideWeight="0.6045455" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16928658" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39545456" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -350,21 +389,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jquery.select/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sliderList/test2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="30" selection-start="1755" selection-end="1755" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/grid_test.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jquery.select/jquery.sel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="39" selection-start="908" selection-end="908" vertical-scroll-proportion="0.50765604" />
@@ -423,17 +447,42 @@
         <state line="20" column="13" selection-start="749" selection-end="749" vertical-scroll-proportion="0.026796589" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery.lazyload/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="69" selection-start="2923" selection-end="2923" vertical-scroll-proportion="0.9732034" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sliderList/test2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="36" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.026796589">
+        <state line="60" column="30" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.4823386" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loadScript/alert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="1" selection-start="92" selection-end="92" vertical-scroll-proportion="0.15547703">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loadScript/Demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="61" selection-start="1232" selection-end="1232" vertical-scroll-proportion="1.045067">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery.lazyload/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="61" selection-start="650" selection-end="650" vertical-scroll-proportion="-12.571428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ie.html5/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="66" selection-start="455" selection-end="455" vertical-scroll-proportion="0.34835565">
           <folding>
-            <marker date="1369270897328" expanded="true" signature="500:576" placeholder="{...}" />
-            <marker date="1369270897328" expanded="true" signature="525:576" placeholder="/*...*/" />
+            <marker date="1371194036046" expanded="true" signature="293:699" placeholder="..." />
+            <marker date="1371194036046" expanded="true" signature="303:314" placeholder="/*...*/" />
+            <marker date="1371194036046" expanded="true" signature="336:682" placeholder="{...}" />
+            <marker date="1371194036046" expanded="true" signature="355:367" placeholder="/*...*/" />
+            <marker date="1371194036046" expanded="true" signature="611:672" placeholder="{...}" />
+            <marker date="1371194036046" expanded="true" signature="714:826" placeholder="..." />
           </folding>
         </state>
       </provider>

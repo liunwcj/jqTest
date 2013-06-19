@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ie(ie6~ie8)兼容HTML5标签</title>
+    <style type="text/css">
+        article, aside, dialog, footer, header, section, footer, nav, figure, menu{display:block;}
+    </style>
+    <!--[if lt IE 9]>
+    <script type="text/javascript">
+        /*ie6~ie8*/
+        (function () {
+            if (!/*@cc_on!@*/0)return;  // 判断IE浏览器
+            var e = "abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(','),i = e.length;
+            while (i--) {
+                document.createElement(e[i]);
+            }
+        })();
+    </script>
+    <noscript>
+        <h2>你的浏览器禁用了 JavaScript。</h2>
+        <p>请在你的浏览器中启用JavaScript，或升级为支持JavaScript的浏览器。</p>
+    </noscript>
+    <![endif]-->
+</head>
+<body>
+    <div>
+    <header>
+        header
+    </header>
+    <section>
+        <article>article</article>
+        <aside>aside</aside>
+    </section>
+    <footer>footer</footer>
+    </div>
+</body>
+</html>

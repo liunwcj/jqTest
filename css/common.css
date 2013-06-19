@@ -2,15 +2,21 @@
 常用的通用样式 Common Style
 理念：少而精
 维护：玉伯<lifesinger@gmail.com>
+编辑：liunwcj
 */
 
 /* 隐藏 */
 .ks-hidden { display: none; }
 .ks-invisible { visibility: hidden; }
 
-/* 清除浮动 */
+/* 清除浮动#1 */
 .ks-clear:after { content: '\20'; display: block; height: 0; clear: both; }
 .ks-clear { *zoom: 1; }
+
+/* 清除浮动#2 */
+.l-clear { *zoom:1;}
+.l-clear:before, .l-clear:after { content: ""; display: table; }
+.l-clear:after { clear: both; }
 
 /* inline block */
 .ks-inline-block { display: inline-block; *display: inline; }
