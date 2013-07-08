@@ -7,18 +7,15 @@
     <script type="text/javascript">
         $(function(){
             setInterval(titleTig,1000);
+            var txtTitle = document.title;
             function titleTig(){
-                var $title = $('title'),
-                    txtTitle = $title.text();
-                if($title.text() == '【新消息】'){
-                    $title.text('【】 - ' + txtTitle);
-                    console.log('隐藏');
+                var $title = $('title');
+                if($title.text().substring(0,5) == '【新消息】'){
+                    $title.text('【　　　】 - ' + txtTitle);
                 }else{
-                    $title.text('【新消息】 - ' + txtTitle);
-                    console.log('显示');
+                    $title.text('【新消息】 - '+ txtTitle);
                 }
             }
-            console.log(Boolean(document.title == /新消息/));
         });
     </script>
 </head>

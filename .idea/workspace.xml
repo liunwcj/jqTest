@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7aef97ac-cb15-4225-8db9-803b3b7a5915" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery.titleFlicker/Demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yabo/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yabo/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.titleFlicker/Demo.html" afterPath="$PROJECT_DIR$/jquery.titleFlicker/Demo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/grids.css" afterPath="$PROJECT_DIR$/css/grids.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.select/index.html" afterPath="$PROJECT_DIR$/jquery.select/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.topfixed/jquery.topfixed.html" afterPath="$PROJECT_DIR$/jquery.topfixed/jquery.topfixed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.lazyload/test.html" afterPath="$PROJECT_DIR$/jquery.lazyload/test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.tab/test3.html" afterPath="$PROJECT_DIR$/jquery.tab/test3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jqTest.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1373263177375" ignored="false" />
+    <file path="/Dummy.txt" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1373281085640" ignored="false" />
     <file path="/Readme.md" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1367842417375" ignored="false" />
     <file path="/test2.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369300152640" ignored="false" />
     <file path="/*.regexp" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1367851289250" ignored="false" />
@@ -25,7 +20,7 @@
     <file path="E:/js_Demo/test_ws/jsHIQ/test1.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369276284296" ignored="false" />
     <file path="/jquery.topfixed.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371901275312" ignored="false" />
     <file path="/dummy.xml" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371094044314" ignored="false" />
-    <file path="/Demo.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1373280110359" ignored="false" />
+    <file path="/Demo.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1373285912218" ignored="false" />
     <file path="E:/js_Demo/test_ws/frameset/1.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371726753786" ignored="false" />
     <file path="E:/js_Demo/test_ws/frameset/2.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371708789973" ignored="false" />
     <file path="E:/js_Demo/test_ws/frameset/index.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371726353755" ignored="false" />
@@ -65,7 +60,7 @@
       <file leaf-file-name="Demo.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jquery.titleFlicker/Demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="38" selection-start="529" selection-end="529" vertical-scroll-proportion="0.37515226">
+            <state line="7" column="21" selection-start="231" selection-end="231" vertical-scroll-proportion="0.18757613">
               <folding />
             </state>
           </provider>
@@ -141,6 +136,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -161,19 +157,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
-    <property name="restartRequiresConfirmation" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../js_Demo" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -208,10 +203,6 @@
       <setting name="preferredDebugBrowser" value="CHROME" />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
-      <node-js-remote-debug />
-      <method />
-    </configuration>
     <configuration default="true" type="NodeunitConfigurationType" factoryName="Nodeunit">
       <setting name="nodePath" value="C:/Program Files/nodejs/node" />
       <envs />
@@ -222,7 +213,8 @@
       <setting name="jsFile" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
+    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
+      <node-js-remote-debug />
       <method />
     </configuration>
     <configuration default="true" type="XSLT" factoryName="XSLT">
@@ -239,6 +231,9 @@
       <OutputType value="CONSOLE" save-to-file="false" />
       <FileType name="XML" />
       <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
@@ -319,7 +314,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1789601" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1789601" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39545456" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -456,35 +451,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery.tab/test3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="24" selection-start="1843" selection-end="1843" vertical-scroll-proportion="1.2058465">
-          <folding />
-        </state>
+        <state line="45" column="24" selection-start="1843" selection-end="1843" vertical-scroll-proportion="1.2058465" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery.lazyload/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="47" selection-start="2543" selection-end="2543" vertical-scroll-proportion="1.4470159">
-          <folding />
-        </state>
+        <state line="54" column="47" selection-start="2543" selection-end="2543" vertical-scroll-proportion="1.4470159" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery.tab/test2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="14" selection-start="1828" selection-end="1828" vertical-scroll-proportion="1.4360536">
-          <folding />
-        </state>
+        <state line="56" column="14" selection-start="1828" selection-end="1828" vertical-scroll-proportion="1.4360536" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery.select/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="14" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.91108406">
-          <folding />
-        </state>
+        <state line="34" column="14" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.91108406" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery.titleFlicker/Demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="38" selection-start="529" selection-end="529" vertical-scroll-proportion="0.37515226">
+        <state line="7" column="21" selection-start="231" selection-end="231" vertical-scroll-proportion="0.18757613">
           <folding />
         </state>
       </provider>
