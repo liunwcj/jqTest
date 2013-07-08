@@ -2,31 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7aef97ac-cb15-4225-8db9-803b3b7a5915" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameset/1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameset/2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameset/3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameset/4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frameset/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery.titleFlicker/Demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yabo/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yabo/test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/grids.css" afterPath="$PROJECT_DIR$/css/grids.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.select/index.html" afterPath="$PROJECT_DIR$/jquery.select/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.topfixed/jquery.topfixed.html" afterPath="$PROJECT_DIR$/jquery.topfixed/jquery.topfixed.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.lazyload/test.html" afterPath="$PROJECT_DIR$/jquery.lazyload/test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.tab/test3.html" afterPath="$PROJECT_DIR$/jquery.tab/test3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jqTest.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371689939458" ignored="false" />
+    <file path="/Dummy.txt" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1373263177375" ignored="false" />
     <file path="/Readme.md" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1367842417375" ignored="false" />
     <file path="/test2.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369300152640" ignored="false" />
     <file path="/*.regexp" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1367851289250" ignored="false" />
     <file path="$PROJECT_DIR$/../../test_ws/jsHIQ/test1.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369216922812" ignored="false" />
     <file path="/test1.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369276280281" ignored="false" />
     <file path="/test3.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369277760203" ignored="false" />
-    <file path="/test.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371288647062" ignored="false" />
+    <file path="/test.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1372671482468" ignored="false" />
     <file path="E:/js_Demo/test_ws/jsHIQ/test1.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369276284296" ignored="false" />
-    <file path="/jquery.topfixed.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369298361718" ignored="false" />
+    <file path="/jquery.topfixed.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371901275312" ignored="false" />
     <file path="/dummy.xml" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371094044314" ignored="false" />
-    <file path="/Demo.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371604250796" ignored="false" />
+    <file path="/Demo.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1373280110359" ignored="false" />
     <file path="E:/js_Demo/test_ws/frameset/1.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371726753786" ignored="false" />
     <file path="E:/js_Demo/test_ws/frameset/2.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371708789973" ignored="false" />
     <file path="E:/js_Demo/test_ws/frameset/index.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371726353755" ignored="false" />
@@ -41,6 +40,9 @@
     <file path="/index.xhtml" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371700174051" ignored="false" />
     <file path="E:/js_Demo/test_ws/frameset/html4.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371700542145" ignored="false" />
     <file path="/html4.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371700453645" ignored="false" />
+    <file path="/style.css" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1372663840046" ignored="false" />
+    <file path="$PROJECT_DIR$/../../js_Demo/obj - ie6.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1373273122484" ignored="false" />
+    <file path="/obj - ie6.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1373272882921" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +61,17 @@
     <favorites_list name="jqTest" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Demo.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jquery.titleFlicker/Demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="38" selection-start="529" selection-end="529" vertical-scroll-proportion="0.37515226">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -80,14 +92,20 @@
       <list>
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/sliderList/test2.html" />
-        <option value="$PROJECT_DIR$/jquery.topfixed/jquery.topfixed.html" />
         <option value="$PROJECT_DIR$/jquery.tab/test3.html" />
         <option value="$PROJECT_DIR$/jquery.tab/test2.html" />
         <option value="$PROJECT_DIR$/headjs/test.html" />
         <option value="$PROJECT_DIR$/ie.html5/test.html" />
-        <option value="$PROJECT_DIR$/jquery.lazyload/test.html" />
         <option value="$PROJECT_DIR$/loadScript/Demo.html" />
         <option value="$PROJECT_DIR$/frameset/1.html" />
+        <option value="$PROJECT_DIR$/jquery.topfixed/jquery.topfixed.html" />
+        <option value="$PROJECT_DIR$/css/style.min.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/yabo/style.min.css" />
+        <option value="$PROJECT_DIR$/yabo/test.html" />
+        <option value="$PROJECT_DIR$/yabo/style.css" />
+        <option value="$PROJECT_DIR$/jquery.lazyload/test.html" />
+        <option value="$PROJECT_DIR$/jquery.titleFlicker/Demo.html" />
       </list>
     </option>
   </component>
@@ -123,7 +141,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -144,21 +161,23 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="fileTemplates" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="last_opened_file_path" value="E:/js_Demo/test_ws" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../js_Demo" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PHP\APMSer\APMServ5.2.6\www\htdocs\GitHub\jqTest\yabo" />
       <recent name="F:\PHP\APMSer\APMServ5.2.6\www\htdocs\GitHub\jqTest" />
       <recent name="F:\PHP\APMSer\APMServ5.2.6\www\htdocs\GitHub\jqTest\loadScript" />
       <recent name="F:\PHP\APMSer\APMServ5.2.6\www\htdocs\GitHub\jqTest\jquery.lazyload" />
@@ -295,16 +314,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1688" height="1005" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1789601" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1789601" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39545456" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -380,88 +399,92 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/aloading.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/rloading.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loadScript/alert.js">
+    <entry file="file://$PROJECT_DIR$/css/grids.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="92" selection-end="92" vertical-scroll-proportion="0.15547703" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ie.html5/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="686" selection-end="686" vertical-scroll-proportion="0.4823386" />
+        <state line="18" column="1" selection-start="339" selection-end="339" vertical-scroll-proportion="0.4605418" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery.lazyload/jquery.lazyload.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="10" selection-start="803" selection-end="803" vertical-scroll-proportion="0.44051826" />
+        <state line="179" column="8" selection-start="6117" selection-end="6117" vertical-scroll-proportion="2.8657243" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery.lazyload/test.html">
+    <entry file="file://$PROJECT_DIR$/ie.html5/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="15" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.7503045" />
+        <state line="19" column="14" selection-start="715" selection-end="715" vertical-scroll-proportion="0.53593177" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery.select/index.html">
+    <entry file="file://$PROJECT_DIR$/headjs/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="749" selection-end="749" vertical-scroll-proportion="0.026796589" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery.select/jquery.sel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="20" selection-start="758" selection-end="758" vertical-scroll-proportion="0.5700824" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery.tab/test3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="37" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.38367844" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery.tab/test2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="24" selection-start="1473" selection-end="1473" vertical-scroll-proportion="1.0609013" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery.topfixed/jquery.topfixed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="30" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.6699147" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sliderList/test2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="30" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.08038977" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sliderList/1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+        <state line="10" column="35" selection-start="378" selection-end="378" vertical-scroll-proportion="0.26796588" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frameset/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="15" selection-start="364" selection-end="364" vertical-scroll-proportion="0.45554203">
-          <folding />
-        </state>
+        <state line="14" column="15" selection-start="296" selection-end="296" vertical-scroll-proportion="0.37515226" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frameset/1.html">
+    <entry file="file://$PROJECT_DIR$/frameset/4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="159" selection-end="159" vertical-scroll-proportion="0.18757613">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loadScript/Demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="24" selection-start="950" selection-end="950" vertical-scroll-proportion="0.4177832">
+        <state line="19" column="18" selection-start="629" selection-end="629" vertical-scroll-proportion="0.5091352" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery.topfixed/jquery.topfixed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="44" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.40194884" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yabo/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="25" selection-start="320" selection-end="320" vertical-scroll-proportion="0.23321554" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yabo/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="7" selection-start="355" selection-end="355" vertical-scroll-proportion="0.37515226" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yabo/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="2711" selection-start="2711" selection-end="2711" vertical-scroll-proportion="0.49234393" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery.tab/test3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="24" selection-start="1843" selection-end="1843" vertical-scroll-proportion="1.2058465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery.lazyload/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="47" selection-start="2543" selection-end="2543" vertical-scroll-proportion="1.4470159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery.tab/test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="14" selection-start="1828" selection-end="1828" vertical-scroll-proportion="1.4360536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery.select/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="14" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.91108406">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery.titleFlicker/Demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="38" selection-start="529" selection-end="529" vertical-scroll-proportion="0.37515226">
           <folding />
         </state>
       </provider>

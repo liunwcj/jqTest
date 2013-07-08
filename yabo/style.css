@@ -1,0 +1,10 @@
+@import url("../css/base.css");
+@import url("../css/common.css");
+@import url('../css/grids.css');
+@import url('../css/reset.css');
+/*@import url("http://192.168.1.203:8001/css/newItem/common2.css"); 不能整合远程样式文件*/
+
+
+body{background-color:#000;color: #FFF;}
+header,footer{border: 1px solid #000;}
+header,footer{border: 1px solid #000;}

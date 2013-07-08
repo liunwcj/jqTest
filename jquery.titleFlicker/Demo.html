@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>标题栏闪烁 - jquery插件 新消息</title>
+    <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            setInterval(titleTig,1000);
+            function titleTig(){
+                var $title = $('title'),
+                    txtTitle = $title.text();
+                if($title.text() == '【新消息】'){
+                    $title.text('【】 - ' + txtTitle);
+                    console.log('隐藏');
+                }else{
+                    $title.text('【新消息】 - ' + txtTitle);
+                    console.log('显示');
+                }
+            }
+            console.log(Boolean(document.title == /新消息/));
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
