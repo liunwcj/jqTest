@@ -2,24 +2,33 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>标题栏闪烁 - jquery插件 新消息</title>
-    <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
-    <script type="text/javascript">
-        $(function(){
-            setInterval(titleTig,1000);
-            var txtTitle = document.title;
-            function titleTig(){
-                var $title = $('title');
-                if($title.text().substring(0,5) == '【新消息】'){
-                    $title.text('【　　　】 - ' + txtTitle);
-                }else{
-                    $title.text('【新消息】 - '+ txtTitle);
-                }
-            }
-        });
-    </script>
+    <title>标题栏闪烁 - jquery插件</title>
 </head>
 <body>
-
+    <div>中文测试</div>
+    <script type="text/javascript">
+        (function(){
+            var txtTitle = document.title;
+            function titleTig(){
+                var tit = document.getElementsByTagName('title')[0];
+                txtTitle = document.title;
+                if(txtTitle.substring(0,5) == '【新消息】'){
+                    document.title = '【　　　】 - ' + txtTitle;
+                    console.log(111,txtTitle);
+                }else{
+                    document.title = '【新消息】 - ' + txtTitle;
+                    console.log(222,txtTitle);
+                }
+                /*if(txtTitle.substring(0,5) == '【新消息】'){
+                 '【　　　】 - ' + txtTitle;
+                 }else{
+                 $title.text('【新消息】 - '+ txtTitle);
+                 }*/
+            }
+            setInterval(titleTig,1000);
+        })();
+        //            setInterval(titleTig,1000);
+        //            titleTig();
+    </script>
 </body>
 </html>
