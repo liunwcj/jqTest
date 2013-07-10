@@ -2,33 +2,61 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>标题栏闪烁 - jquery插件</title>
+    <title>标题栏闪烁 - js插件对象</title>
 </head>
 <body>
-    <div>中文测试</div>
+    <input type="button" value="<title>取消闪烁" id="titBtn1" />
+    <input type="button" value="<title>开始闪烁" id="titBtn2" />
+
     <script type="text/javascript">
-        (function(){
-            var txtTitle = document.title;
-            function titleTig(){
-                var tit = document.getElementsByTagName('title')[0];
-                txtTitle = document.title;
-                if(txtTitle.substring(0,5) == '【新消息】'){
-                    document.title = '【　　　】 - ' + txtTitle;
-                    console.log(111,txtTitle);
-                }else{
-                    document.title = '【新消息】 - ' + txtTitle;
-                    console.log(222,txtTitle);
-                }
-                /*if(txtTitle.substring(0,5) == '【新消息】'){
-                 '【　　　】 - ' + txtTitle;
-                 }else{
-                 $title.text('【新消息】 - '+ txtTitle);
-                 }*/
+        var titleMessage = {
+
+            time:1000,//闪烁时间
+            txtDefault:'【新消息】',//默认 自定义文字
+            txtAlt:'【　　　】',//替换 自定义文字
+
+            title:document.title,//标题名称
+            timer:null,//定时器开关
+            show:function(){
+                this.timer = setInterval(function(){
+                    var tit = document.getElementsByTagName('title')[0];
+                    if(document.title.substring(0,titleMessage.txtDefault.length) == titleMessage.txtDefault){
+                        document.title = titleMessage.txtAlt + titleMessage.title;
+                    }else{
+                        document.title = titleMessage.txtDefault + titleMessage.title;
+                    }
+                },this.time);
+            },
+            clear:function(){
+                clearInterval(this.timer);
+                document.title = this.title;
             }
-            setInterval(titleTig,1000);
-        })();
-        //            setInterval(titleTig,1000);
-        //            titleTig();
+        };
+        /*titleMessage.prototype.show = function(){
+            this.timer = setInterval(function(){
+                var tit = document.getElementsByTagName('title')[0];
+                if(document.title.substring(0,titleMessage.txtDefault.length) == titleMessage.txtDefault){
+                    document.title = titleMessage.txtAlt + titleMessage.title;
+                }else{
+                    document.title = titleMessage.txtDefault + titleMessage.title;
+                }
+            },this.time);
+        };
+        titleMessage.prototype.clear = function(){
+            clearInterval(this.timer);
+            document.title = this.title;
+        };*/
+
+        //Demo
+        document.getElementById('titBtn1').onclick = function(){
+            titleMessage.clear();
+        }
+        document.getElementById('titBtn2').onclick = function(){
+            titleMessage.time = 1000;
+            titleMessage.txtDefault = 'www.shikee.com - ';
+            titleMessage.txtAlt = 'liunwcj - ';
+            titleMessage.show();
+        }
     </script>
 </body>
 </html>
