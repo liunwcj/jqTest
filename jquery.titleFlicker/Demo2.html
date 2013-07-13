@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>标题栏闪烁 - js插件对象</title>
+</head>
+<body>
+    <input type="button" value="<title>取消闪烁" id="titBtn1" />
+    <input type="button" value="<title>开始闪烁" id="titBtn2" />
+    <script src="titleMessage.js"></script>
+    <script type="text/javascript">
+        //Demo
+        document.getElementById('titBtn1').onclick = function(){
+            titleMessage.clear();
+        }
+        document.getElementById('titBtn2').onclick = function(){
+            titleMessage.time = 50;
+            titleMessage.show();
+        }
+
+    </script>
+</body>
+</html>
