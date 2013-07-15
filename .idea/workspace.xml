@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7aef97ac-cb15-4225-8db9-803b3b7a5915" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery.titleFlicker/Demo2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery.titleFlicker/titleMessage.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.titleFlicker/Demo.html" afterPath="$PROJECT_DIR$/jquery.titleFlicker/Demo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/grids.css" afterPath="$PROJECT_DIR$/css/grids.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.select/index.html" afterPath="$PROJECT_DIR$/jquery.select/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.tab/test3.html" afterPath="$PROJECT_DIR$/jquery.tab/test3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jqTest.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1373701663187" ignored="false" />
+    <file path="/Dummy.txt" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1373848744718" ignored="false" />
     <file path="/Readme.md" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1367842417375" ignored="false" />
     <file path="/test2.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369300152640" ignored="false" />
     <file path="/*.regexp" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1373681750984" ignored="false" />
@@ -23,7 +20,7 @@
     <file path="E:/js_Demo/test_ws/jsHIQ/test1.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369276284296" ignored="false" />
     <file path="/jquery.topfixed.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371901275312" ignored="false" />
     <file path="/dummy.xml" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371094044314" ignored="false" />
-    <file path="/Demo.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1373611791824" ignored="false" />
+    <file path="/Demo.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1373881750953" ignored="false" />
     <file path="E:/js_Demo/test_ws/frameset/1.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371726753786" ignored="false" />
     <file path="E:/js_Demo/test_ws/frameset/2.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371708789973" ignored="false" />
     <file path="E:/js_Demo/test_ws/frameset/index.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371726353755" ignored="false" />
@@ -63,10 +60,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="titleMessage.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="titleMessage.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jquery.titleFlicker/titleMessage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="5" selection-start="928" selection-end="928" vertical-scroll-proportion="0.803298">
+            <state line="31" column="5" selection-start="332" selection-end="928" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -75,16 +72,16 @@
       <file leaf-file-name="Demo2.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jquery.titleFlicker/Demo2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="35" selection-start="308" selection-end="308" vertical-scroll-proportion="-8.642858">
+            <state line="18" column="32" selection-start="566" selection-end="566" vertical-scroll-proportion="-14.142858">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Demo.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Demo.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jquery.titleFlicker/Demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="83" selection-start="561" selection-end="561" vertical-scroll-proportion="-11.0">
+            <state line="8" column="60" selection-start="227" selection-end="227" vertical-scroll-proportion="0.21437271">
               <folding />
             </state>
           </provider>
@@ -123,8 +120,8 @@
         <option value="$PROJECT_DIR$/yabo/style.css" />
         <option value="$PROJECT_DIR$/jquery.lazyload/test.html" />
         <option value="$PROJECT_DIR$/jquery.titleFlicker/titleMessage.js" />
-        <option value="$PROJECT_DIR$/jquery.titleFlicker/Demo.html" />
         <option value="$PROJECT_DIR$/jquery.titleFlicker/Demo2.html" />
+        <option value="$PROJECT_DIR$/jquery.titleFlicker/Demo.html" />
       </list>
     </option>
   </component>
@@ -214,13 +211,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../js_Demo" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../js_Demo" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -256,6 +253,10 @@
       <setting name="preferredDebugBrowser" value="CHROME" />
       <method />
     </configuration>
+    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
+      <node-js-remote-debug />
+      <method />
+    </configuration>
     <configuration default="true" type="NodeunitConfigurationType" factoryName="Nodeunit">
       <setting name="nodePath" value="C:/Program Files/nodejs/node" />
       <envs />
@@ -266,8 +267,7 @@
       <setting name="jsFile" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
-      <node-js-remote-debug />
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="XSLT" factoryName="XSLT">
@@ -284,9 +284,6 @@
       <OutputType value="CONSOLE" save-to-file="false" />
       <FileType name="XML" />
       <JdkChoice value="FROM_MODULE" />
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
@@ -362,12 +359,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1688" height="1005" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1789601" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1789601" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39545456" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -499,42 +496,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yabo/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="41" selection-start="262" selection-end="262" vertical-scroll-proportion="0.21437271">
-          <folding />
-        </state>
+        <state line="8" column="41" selection-start="262" selection-end="262" vertical-scroll-proportion="0.21437271" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yabo/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="2722" selection-start="2722" selection-end="2722" vertical-scroll-proportion="0.49234393">
-          <folding />
-        </state>
+        <state line="0" column="2722" selection-start="2722" selection-end="2722" vertical-scroll-proportion="0.49234393" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yabo/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="38" selection-start="333" selection-end="333" vertical-scroll-proportion="0.23321554">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery.titleFlicker/Demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="83" selection-start="561" selection-end="561" vertical-scroll-proportion="-11.0">
-          <folding />
-        </state>
+        <state line="9" column="38" selection-start="333" selection-end="333" vertical-scroll-proportion="0.23321554" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery.titleFlicker/Demo2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="35" selection-start="308" selection-end="308" vertical-scroll-proportion="-8.642858">
+        <state line="18" column="32" selection-start="566" selection-end="566" vertical-scroll-proportion="-14.142858">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery.titleFlicker/titleMessage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="5" selection-start="928" selection-end="928" vertical-scroll-proportion="0.803298">
+        <state line="31" column="5" selection-start="332" selection-end="928" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery.titleFlicker/Demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="60" selection-start="227" selection-end="227" vertical-scroll-proportion="0.21437271">
           <folding />
         </state>
       </provider>
