@@ -26,8 +26,5 @@ var titleMessage = {
     clear:function(){
         clearInterval(this.timer);
         document.title = this.title;
-    },
-    test:function(){
-        return 'test';
     }
 };
