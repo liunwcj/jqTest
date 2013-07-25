@@ -1,4 +1,4 @@
-(function($,window){
+;(function($,window){
     var $window = $(window);
     $.fn.datalazyload = function(){
         var $this = $(this);
@@ -7,7 +7,8 @@
             $this.each(function(){
                 var $textarea = $(this).find('textarea');
                 if($textarea.css('display') != 'none' && topH >= $(this).offset().top){
-                    $textarea.before($textarea.val()).css('display','none');
+                    $textarea.before($textarea.val()).hide();
+                    $this.hide().fadeIn(300);
                 }
             });
         });

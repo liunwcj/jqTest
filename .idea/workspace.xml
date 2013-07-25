@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7aef97ac-cb15-4225-8db9-803b3b7a5915" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery.DataLazyLoad/jquery.datalazyload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.DataLazyLoad/Demo1.html" afterPath="$PROJECT_DIR$/jquery.DataLazyLoad/Demo1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/grids.css" afterPath="$PROJECT_DIR$/css/grids.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.select/index.html" afterPath="$PROJECT_DIR$/jquery.select/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.DataLazyLoad/jquery.datalazyload.js" afterPath="$PROJECT_DIR$/jquery.DataLazyLoad/jquery.datalazyload.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.tab/test3.html" afterPath="$PROJECT_DIR$/jquery.tab/test3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jqTest.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1374626670593" ignored="false" />
+    <file path="/Dummy.txt" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1374711802453" ignored="false" />
     <file path="/Readme.md" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1367842417375" ignored="false" />
     <file path="/test2.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369300152640" ignored="false" />
     <file path="/*.regexp" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1373681750984" ignored="false" />
@@ -51,6 +50,7 @@
     <file path="$PROJECT_DIR$/../Kissy/Demo.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1374052399234" ignored="false" />
     <file path="$PROJECT_DIR$/../../js_Demo/jquery.DataLazyLoad/Demo.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1374478205843" ignored="false" />
     <file path="/Demo1.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1374636954859" ignored="false" />
+    <file path="/jquery.datalazyload.js" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1374723867875" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,35 +69,7 @@
     <favorites_list name="jqTest" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Demo1.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jquery.DataLazyLoad/Demo1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="21" selection-start="584" selection-end="584" vertical-scroll-proportion="-11.785714">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.datalazyload.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jquery.DataLazyLoad/jquery.datalazyload.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="28" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.lazyload.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jquery.lazyload/jquery.lazyload.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="38" selection-start="907" selection-end="907" vertical-scroll-proportion="0.10365135">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -130,8 +102,8 @@
         <option value="$PROJECT_DIR$/jquery.titleFlicker/Demo.html" />
         <option value="$PROJECT_DIR$/jquery.titleFlicker/Demo2.html" />
         <option value="$PROJECT_DIR$/jquery.titleFlicker/titleMessage.js" />
-        <option value="$PROJECT_DIR$/jquery.DataLazyLoad/jquery.datalazyload.js" />
         <option value="$PROJECT_DIR$/jquery.DataLazyLoad/Demo1.html" />
+        <option value="$PROJECT_DIR$/jquery.DataLazyLoad/jquery.datalazyload.js" />
       </list>
     </option>
   </component>
@@ -167,7 +139,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -214,20 +185,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jqTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jqTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="vcs.Git" />
-    <property name="restartRequiresConfirmation" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="D:/web_tools/Git/bin/git.exe" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -272,10 +258,6 @@
       <setting name="preferredDebugBrowser" value="CHROME" />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
-      <node-js-remote-debug />
-      <method />
-    </configuration>
     <configuration default="true" type="NodeunitConfigurationType" factoryName="Nodeunit">
       <setting name="nodePath" value="C:/Program Files/nodejs/node" />
       <envs />
@@ -286,7 +268,8 @@
       <setting name="jsFile" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
+    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
+      <node-js-remote-debug />
       <method />
     </configuration>
     <configuration default="true" type="XSLT" factoryName="XSLT">
@@ -303,6 +286,9 @@
       <OutputType value="CONSOLE" save-to-file="false" />
       <FileType name="XML" />
       <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
@@ -465,26 +451,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jquery.select/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="749" selection-end="749" vertical-scroll-proportion="0.53593177" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yabo/style.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="2722" selection-start="2722" selection-end="2722" vertical-scroll-proportion="0.49234393" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yabo/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="38" selection-start="333" selection-end="333" vertical-scroll-proportion="0.23321554" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ie.html5/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sliderList/test2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.64311814" />
@@ -517,42 +483,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery.tab/test3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="17" selection-start="1081" selection-end="1107" vertical-scroll-proportion="0.42996347">
-          <folding />
-        </state>
+        <state line="28" column="17" selection-start="1081" selection-end="1107" vertical-scroll-proportion="0.42996347" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery.lazyload/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="53" selection-start="625" selection-end="679" vertical-scroll-proportion="0.026796589">
-          <folding />
-        </state>
+        <state line="17" column="53" selection-start="625" selection-end="679" vertical-scroll-proportion="0.026796589" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery.DataLazyLoad/Demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="35" selection-start="554" selection-end="554" vertical-scroll-proportion="0.42874542">
+        <state line="16" column="35" selection-start="554" selection-end="554" vertical-scroll-proportion="0.42874542" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery.lazyload/jquery.lazyload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="343" selection-end="343" vertical-scroll-proportion="0.077738516">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="14" selection-start="605" selection-end="605" vertical-scroll-proportion="0.196702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/grids.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.5759718">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="479" selection-end="479" vertical-scroll-proportion="0.5700824">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery.DataLazyLoad/Demo1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="21" selection-start="584" selection-end="584" vertical-scroll-proportion="-11.785714">
+        <state line="33" column="0" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.7771011">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery.DataLazyLoad/jquery.datalazyload.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="28" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery.lazyload/jquery.lazyload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="38" selection-start="907" selection-end="907" vertical-scroll-proportion="0.10365135">
+        <state line="9" column="61" selection-start="454" selection-end="454" vertical-scroll-proportion="0.23321554">
           <folding />
         </state>
       </provider>
