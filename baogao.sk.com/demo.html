@@ -1,0 +1,964 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>试用报告 - 试客联盟</title>
+    <link rel="shortcut icon" type="image/ico" href="http://www.shikee.com/images/favicon.ico"/>
+    <link href="http://baogao.shikee.com/css/indexconmen.css" rel="stylesheet" type="text/css"/>
+    <link href="http://baogao.shikee.com/css/tryreportindex.css" rel="stylesheet" type="text/css"/>
+    <style>
+        .reportimg li, #essence-slider, .bg-loading{ background:url(../images/mloading.gif) no-repeat center; }
+        .essence-report-item{ width:1000px; }
+        .reportimg li{ display:block; width:460px; height:320px; overflow:hidden; }
+        textarea{ visibility:hidden; }
+        .shikeeTalent{ height:442px; }
+        .bg-favorite{ height:332px; }
+        .alltry{ height:270px; }
+        .ui-applist, .shikeeTalent .mt20, .alltry-list, .alllike{ background-color:#FFF; }
+    </style>
+    <script src="../js/jquery-1.10.1.min.js"></script>
+</head>
+<body>
+<div id="topbar" class="topbar">
+    <div class="grid-RW top_nav">
+
+    </div>
+</div>
+
+<div class="mt10 header grid-RW">
+    <div id="shikee-logo">
+        <h1><a class="shikee-img-logo" href="http://192.168.1.210:9997/" target="_self"> <img
+        src="http://baogao.shikee.com/images/report-main.png" alt="试客联盟 - logo" title="试客联盟"></a></h1>
+    </div>
+    <div class="search-panel clearfix">
+        <form id="formTop" method="post" action="/TryReportList/Search">
+                <span class="search">
+                    <input type="text" x-webkit-speech="" speech="" id="keySearch" name="keySearch" class="ts-focus">
+                    <input type="submit" class="ts-submit" value="搜索报告">
+                </span>
+        </form>
+    </div>
+</div>
+
+
+<style>
+    /*联盟最新活动*/
+    b.arrow{ position:absolute; display:inline-block; width:0; height:0; font-size:0; line-height:0; border-width:4px; border-style:dashed; border-color:transparent; }
+    .activity-slide-left, .activity-slide-right{ float:left; width:14px; height:12px; border:1px solid #D8D8D8; position:relative; margin-left:-1px; margin-top:2px; cursor:pointer; }
+    .activity-slide-right .arrow{ border-left-color:#666; border-left-style:solid; top:2px; left:6px; }
+    .activity-slide-right .arrow-rthin .arrow{ border-left-color:#fff; top:-4px; left:-6px; }
+    .activity-slide-left .arrow{ border-right-color:#666; border-right-style:solid; top:2px; left:0px; }
+    .activity-slide-left .arrow-rthin .arrow{ border-right-color:#fff; top:-4px; left:-2px; }
+    .activity-slide-right:hover .arrow-rthin{ border-left-color:#F40; }
+    .activity-slide-left:hover .arrow-rthin{ border-right-color:#F40 }
+    .new_activity{ margin-top:5px; width:278px; height:95px; overflow:hidden; }
+    .new_activity li{ zoom:1; }
+    .zs{ height:70px; border-bottom:1px solid #E8E8E8; border-top:1px solid #E8E8E8; overflow:hidden; }
+    .shikee_activity{ padding:0 10px; }
+    .act_hd{ height:30px; color:#666; }
+    .act_hd em{ color:#EA5900; }
+    .act_hd h5, .Talent_hd h5{ font-family:\5FAE\8F6F\96C5\9ED1; font-size:16px; float:left; line-height:24px; color:#555; }
+    .act_hd .new-ico, .Talent_hd .top_ico{ display:block; float:left; width:30px; height:30px; background:url(http://www.shikee.com/images/newItem/2012/index_ico.png) 0 0 no-repeat; }
+    .Talent_hd .top_ico{ background-position:-30px 0; }
+    .act_hd .side_arrow{ float:right; margin-top:3px; }
+</style>
+<div style="width: 298px; border: 1px solid #CCC;">
+    <div id="activity_slide_wrap" class="shikee_activity clearfix">
+        <div class="act_hd">
+            <span class="new-ico"></span>
+            <h5>联盟最新活动</h5>
+
+            <p class="side_arrow">
+                <span id="activity_index" style="float: left; padding: 0 5px;"></span>
+                            <span class="activity-slide-left">
+                                <b class="arrow arrow-rthin"><b class="arrow"></b></b>
+                            </span>
+                            <span class="activity-slide-right">
+                                <b class="arrow arrow-rthin"><b class="arrow"></b></b>
+                            </span>
+            </p>
+        </div>
+        <ul id="activity_slide_container" class="new_activity">
+
+            <li style="display: block;">
+                <a href="http://www.shihuasuan.com/yzcm/index.html"><img width="278" height="95"
+                                                                         src="http://zhanweitu.com/278/95/1"></a>
+            </li>
+            <li>
+                <a href="http://tbg.shikee.com/"><img width="278" height="95" data-src="http://zhanweitu.com/278/95/2"></a>
+            </li>
+            <li>
+                <a href="http://tbg.shikee.com/"><img width="278" height="95" data-src="http://zhanweitu.com/278/95/3"></a>
+            </li>
+            <li>
+                <a href="http://tbg.shikee.com/"><img width="278" height="95" data-src="http://zhanweitu.com/278/95/4"></a>
+            </li>
+            <li>
+                <a href="http://tbg.shikee.com/"><img width="278" height="95" data-src="http://zhanweitu.com/278/95/5"></a>
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+
+<div class="mt10 mNav">
+    <div class="grid-RW">
+        <ul>
+            <li class="on"><a target="_self" href="http://192.168.1.210:8887/">试用报告首页</a></li>
+            <li><a target="_self" href="http://192.168.1.210:8887/List.htm?order=0">最新报告</a></li>
+            <li><a target="_self" href="http://192.168.1.210:8887/List.htm?digest=3">精华报告</a></li>
+        </ul>
+        <ol id="myreport" class="nav-special">
+            <li class="tryclass"></li>
+        </ol>
+    </div>
+</div>
+
+<div id="content" class="mt10 grid-RW">
+<div class="first-screen">
+    <div class="report-sider">
+        <ul class="report-channels clearfix">
+            <li class="chl-cloth">
+                <a target="_blank" href="http://192.168.1.210:8887/List.htm?parentid=1"> <span
+                class="channel-icon"></span> <span class="channel-char">潮流服饰</span> </a>
+            </li>
+            <li class="chl-shoseb">
+                <a target="_blank" href="http://192.168.1.210:8887/List.htm?parentid=3"> <span
+                class="channel-icon"></span> <span class="channel-char">鞋子箱包</span> </a>
+            </li>
+            <li class="chl-food">
+                <a target="_blank" href="http://192.168.1.210:8887/List.htm?parentid=5"> <span
+                class="channel-icon"></span> <span class="channel-char">美食特产</span> </a></li>
+            <li class="chl-beauty">
+                <a target="_blank" href="http://192.168.1.210:8887/List.htm?parentid=8"> <span
+                class="channel-icon"></span> <span class="channel-char">美容护肤</span> </a>
+            </li>
+            <li class="chl-acc">
+                <a target="_blank" href="http://192.168.1.210:8887/List.htm?parentid=4"> <span
+                class="channel-icon"></span> <span class="channel-char">时尚配饰</span> </a></li>
+            <li class="chl-digital">
+                <a target="_blank" href="http://192.168.1.210:8887/List.htm?parentid=6"> <span
+                class="channel-icon"></span> <span class="channel-char">数码家电</span></a>
+            </li>
+            <li class="chl-home">
+                <a target="_blank" href="http://192.168.1.210:8887/List.htm?parentid=7"> <span
+                class="channel-icon"></span> <span class="channel-char">家具日用</span></a>
+            </li>
+            <li class="chl-mens">
+                <a target="_blank" href="http://192.168.1.210:8887/List.htm?parentid=2"> <span
+                class="channel-icon"></span> <span class="channel-char">精品男装</span></a>
+            </li>
+            <li class="chl-all">
+                <a target="_blank" href="http://192.168.1.210:8887/List.htm?parentid=9"> <span
+                class="channel-icon"></span> <span class="channel-char">综合试用</span></a>
+            </li>
+        </ul>
+    </div>
+    <div class="top_banner" id="main-slider">
+        <div class="reportimg">
+            <ul>
+                <li><a target="_blank" href="http://192.168.1.210/tryreport.php?mod=view&joinid=14"><img width="460"
+                                                                                                         height="320"
+                                                                                                         src="http://zhanweitu.com/460/320/1"
+                                                                                                         alt="1111111"></a>
+                </li>
+                <li><a target="_blank" href="http://192.168.1.210/tryreport.php?mod=view&joinid=14"><img width="460"
+                                                                                                         height="320"
+                                                                                                         data-src="http://zhanweitu.com/460/320/2"
+                                                                                                         alt="1111111"></a>
+                </li>
+                <li><a target="_blank" href="http://192.168.1.210/tryreport.php?mod=view&joinid=14"><img width="460"
+                                                                                                         height="320"
+                                                                                                         data-src="http://zhanweitu.com/460/320/3"
+                                                                                                         alt="1111111"></a>
+                </li>
+                <li><a target="_blank" href="http://192.168.1.210/tryreport.php?mod=view&joinid=14"><img width="460"
+                                                                                                         height="320"
+                                                                                                         data-src="http://zhanweitu.com/460/320/4"
+                                                                                                         alt="1111111"></a>
+                </li>
+                <li><a target="_blank" href="http://192.168.1.210/tryreport.php?mod=view&joinid=14"><img width="460"
+                                                                                                         height="320"
+                                                                                                         data-src="http://zhanweitu.com/460/320/5"
+                                                                                                         alt="1111111"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="reportbtn"></div>
+        <div id="main-slider-text" class="top_banner-title font-y">
+            <a href="http://192.168.1.210/tryreport.php?mod=view&joinid=14" title="1111111">1111111</a> <a
+        href="http://192.168.1.210/tryreport.php?mod=view&joinid=14" title="2222222">2222222</a> <a
+        href="http://192.168.1.210/tryreport.php?mod=view&joinid=14" title="3333333">3333333</a> <a
+        href="http://192.168.1.210/tryreport.php?mod=view&joinid=14" title="4444444">4444444</a> <a
+        href="http://192.168.1.210/tryreport.php?mod=view&joinid=14" title="5555555">5555555</a>
+        </div>
+
+        <ul class="reportbtn-list" id="J_reportbtn-list">
+            <!--<script>
+                //动态添加轮换索引 (1,2,3,4,5)
+                (function(d){
+                    var li_len = d.getElementById('main-slider').getElementsByTagName('li').length,temp='';
+                    for(var i1;i<=li_len;i++){
+                        i===1 ? temp += '<li class="selected"><a href="#">'+ i +'</a></li>' : temp += '<li><a href="#">'+ i +'</a></li>';
+                    }
+                    d.getElementById('J_reportbtn-list').innerHTML = temp;
+                })(document);
+            </script>-->
+        </ul>
+    </div>
+    <div class="ui-box fn-right report-sub report-sub-tl">
+        <div class="help-member">
+            <ul id="showlogin">
+                <li class="login"><a
+                href="http://192.168.1.210:8882/member/login?redirect_url=http://192.168.1.210:8887/" class="loginBtn">登录</a>
+                </li>
+                <li class="reg"><a href="http://192.168.1.210:8881/member/Register.htm" class="regBtn">免费注册</a></li>
+                <li class="shenq"><a target="_blank" href="http://192.168.1.210:9997/skdoc/imtry.html" class="freeTry">申请免费试用</a>
+                </li>
+            </ul>
+            <ul id="showinfo" style="display: none;"></ul>
+        </div>
+        <div class="notice font-y" id="notice_slide_wrap">
+            <div class="ui-box-title" id="notice_slide_switcher">
+                <a class="tab-cur" href="javascript:void(0)">攻略</a> <a href="javascript:void(0)">规则</a> <a
+            href="javascript:void(0)">帮助</a>
+            </div>
+            <div class="ui-box-container" id="notice_slide_container">
+                <ul class="clearfix notice_slide_ul">
+
+                </ul>
+                <ul class="clearfix notice_slide_ul none">
+
+                </ul>
+                <ul class="clearfix notice_slide_ul none">
+
+                </ul>
+            </div>
+        </div>
+        <div class="hot-activities">
+            <a href="http://baogao.shikee.com/" target="_blank"> <img width="261" height="170" alt=""
+                                                                      src="http://zhanweitu.com/261/170/1"></a>
+        </div>
+    </div>
+</div>
+<div class="essence-report mt10 clearfix">
+    <div class="local-head">
+        <a class="fn-right" target="_blank" href="http://192.168.1.210:8887/List.htm?digest=3">more</a>
+
+        <h3>最新精华报告<span>NEW</span></h3>
+    </div>
+    <div id="essence-slider" class="essence-report-item">
+        <a class="tmall-slide tmall-slide-right"></a> <a class="tmall-slide tmall-slide-left"></a>
+
+        <div class="essence-slider-content">
+            <ul class="mt10 ui-applist clearfix">
+                <li class="ui-applist-item">
+                    <a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3584098" target="_blank"
+                       class="fn-left ui-share-img"> <img width="218" height="218" alt="可爱的小凳子"
+                                                          src="http://zhanweitu.com/218/218/1"></a>
+
+                    <p class="ui-applist-item-title"><a target="_blank"
+                                                        href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3584098">可爱的小凳子</a>
+                    </p>
+
+                    <div class="ui-share">
+                        <a href="http://bbs.shikee.com/home.php?mod=space&amp;uid=2089081076" target="_blank"> <img
+                        class="J_avatar" data-type="middle" width="60" height="60" alt="luckyyoyo_2009"
+                        src="1http://userimg.shikee.com/data/avatar/020/890/810/76_avatar_middle.jpg"></a>
+
+                        <div class="block-info fn-right">
+                            <p class="ui-share-name"><a
+                            href="http://bbs.shikee.com/home.php?mod=space&amp;uid=2089081076" target="_blank">luckyyoyo_2009</a>
+                            </p>
+
+                            <p class="ui-share-info"><a target="_blank"
+                                                        href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3584098">小凳子是老虎卡通图案的，妮宝很是喜欢，一拿回来就左看右看，舍不得坐呢，去哪都带上</a>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="ui-applist-item">
+                    <a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3608884" target="_blank"
+                       class="fn-left ui-share-img"> <img width="218" height="218" alt="【快活林--男士潮流人字拖】"
+                                                          src="http://zhanweitu.com/218/218/2"></a>
+
+                    <p class="ui-applist-item-title"><a target="_blank"
+                                                        href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3608884">【快活林--男士潮流人字拖】</a>
+                    </p>
+
+                    <div class="ui-share">
+                        <a href="http://bbs.shikee.com/home.php?mod=space&amp;uid=2089111503" target="_blank"> <img
+                        class="J_avatar" data-type="small" width="60" height="60" alt="ch小丹ou"
+                        src="ht1tp://userimg.shikee.com/data/avatar/020/891/115/03_avatar_middle.jpg"></a>
+
+                        <div class="block-info fn-right">
+                            <p class="ui-share-name"><a
+                            href="http://bbs.shikee.com/home.php?mod=space&amp;uid=2089111503"
+                            target="_blank">ch小丹ou</a></p>
+
+                            <p class="ui-share-info"><a target="_blank"
+                                                        href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3608884">★★★★★试客信息★★★★★大家好！我是丹丹，年龄：80后，身高：160cm，体</a>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="ui-applist-item">
+                    <a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3617077" target="_blank"
+                       class="fn-left ui-share-img"> <img width="218" height="218" alt="当大脚遇上水晶鞋&mdash;&mdash;瓷妈的公主梦 "
+                                                          src="http://zhanweitu.com/218/218/3"></a>
+
+                    <p class="ui-applist-item-title"><a target="_blank"
+                                                        href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3617077">当大脚遇上水晶鞋&mdash;&mdash;瓷妈的公主梦 </a>
+                    </p>
+
+                    <div class="ui-share">
+                        <a href="http://bbs.shikee.com/home.php?mod=space&amp;uid=2090013596" target="_blank"> <img
+                        width="60" height="60" alt="小瓷儿乖乖"
+                        src="http://userimg.shikee.com/data/avatar/020/900/135/96_avatar_middle.jpg"></a>
+
+                        <div class="block-info fn-right">
+                            <p class="ui-share-name"><a
+                            href="http://bbs.shikee.com/home.php?mod=space&amp;uid=2090013596" target="_blank">小瓷儿乖乖</a>
+                            </p>
+
+                            <p class="ui-share-info"><a target="_blank"
+                                                        href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3617077">鞋子评价：瓷妈有一双39码的大脚。所以基本不穿平底鞋或者坡跟鞋，会显得脚超大，像</a>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="ui-applist-item">
+                    <a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3621381" target="_blank"
+                       class="fn-left ui-share-img"> <img width="218" height="218" alt="酒壶－终于如了小妞的心愿"
+                                                          src="http://zhanweitu.com/218/218/4"></a>
+
+                    <p class="ui-applist-item-title"><a target="_blank"
+                                                        href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3621381">酒壶－终于如了小妞的心愿</a>
+                    </p>
+
+                    <div class="ui-share">
+                        <a href="http://bbs.shikee.com/home.php?mod=space&amp;uid=2090021122" target="_blank"> <img
+                        width="60" height="60" alt="秋雨萌萌"
+                        src="http://userimg.shikee.com/data/avatar/020/900/211/22_avatar_middle.jpg"></a>
+
+                        <div class="block-info fn-right">
+                            <p class="ui-share-name"><a
+                            href="http://bbs.shikee.com/home.php?mod=space&amp;uid=2090021122" target="_blank">秋雨萌萌</a>
+                            </p>
+
+                            <p class="ui-share-info"><a target="_blank"
+                                                        href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3621381">我家小妞第一眼就相中了这个酒壶可惜申请了两次都没中那天睡觉前，见我又在试客申请交</a>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+            <ul class="mt10 ui-applist clearfix">
+                <textarea>
+                    <li class="ui-applist-item">
+                        <a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3629161" target="_blank"
+                           class="fn-left ui-share-img"> <img width="218" height="218" alt="【一克拉】清风花果淡香香水 唤起你对青葱岁月的记忆"
+                                                              src="http://zhanweitu.com/218/218/5"></a>
+
+                        <p class="ui-applist-item-title"><a target="_blank"
+                                                            href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3629161">【一克拉】清风花果淡香香水
+                            唤起你对青葱岁月的记忆</a></p>
+
+                        <div class="ui-share">
+                            <a href="http://bbs.shikee.com/home.php?mod=space&amp;uid=2089009356" target="_blank"> <img
+                            width="60" height="60" alt="孤单抗体"
+                            src="http://userimg.shikee.com/data/avatar/020/890/093/56_avatar_middle.jpg"></a>
+
+                            <div class="block-info fn-right">
+                                <p class="ui-share-name"><a
+                                href="http://bbs.shikee.com/home.php?mod=space&amp;uid=2089009356"
+                                target="_blank">孤单抗体</a></p>
+
+                                <p class="ui-share-info"><a target="_blank"
+                                                            href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3629161">【宝贝点评】算是一个香水控吧，高中低档各种比较有名的品牌基本都尝试过，不喜浓烈和</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="ui-applist-item">
+                        <a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3638368" target="_blank"
+                           class="fn-left ui-share-img"> <img width="218" height="218" alt="美味分享&mdash;&mdash;5口味曲奇饼！"
+                                                              src="http://zhanweitu.com/218/218/6"></a>
+
+                        <p class="ui-applist-item-title"><a target="_blank"
+                                                            href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3638368">美味分享&mdash;&mdash;5口味曲奇饼！</a>
+                        </p>
+
+                        <div class="ui-share">
+                            <a href="http://bbs.shikee.com/home.php?mod=space&amp;uid=2089045482" target="_blank"> <img
+                            width="60" height="60" alt="君之子音"
+                            src="http://userimg.shikee.com/data/avatar/020/890/454/82_avatar_middle.jpg"></a>
+
+                            <div class="block-info fn-right">
+                                <p class="ui-share-name"><a
+                                href="http://bbs.shikee.com/home.php?mod=space&amp;uid=2089045482"
+                                target="_blank">君之子音</a></p>
+
+                                <p class="ui-share-info"><a target="_blank"
+                                                            href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3638368">偶承认偶是个小吃货，而且一向很偏爱曲奇饼！很开心能够申请到这款5种口味的曲奇饼干</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="ui-applist-item">
+                        <a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3646479" target="_blank"
+                           class="fn-left ui-share-img"> <img width="218" height="218" alt="叮铛兜兜   个性男童装宝宝短袖圆领纯棉T恤"
+                                                              src="http://zhanweitu.com/218/218/7"></a>
+
+                        <p class="ui-applist-item-title"><a target="_blank"
+                                                            href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3646479">叮铛兜兜
+                            个性男童装宝宝短袖圆领纯棉T恤</a></p>
+
+                        <div class="ui-share">
+                            <a href="http://bbs.shikee.com/home.php?mod=space&amp;uid=159235" target="_blank"> <img
+                            width="60" height="60" alt="KAREEN"
+                            src="http://userimg.shikee.com/data/avatar/000/001/592/35_avatar_middle.jpg"></a>
+
+                            <div class="block-info fn-right">
+                                <p class="ui-share-name"><a
+                                href="http://bbs.shikee.com/home.php?mod=space&amp;uid=159235"
+                                target="_blank">KAREEN</a></p>
+
+                                <p class="ui-share-info"><a target="_blank"
+                                                            href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3646479">服务态度：★★★★★
+                                    （客服的态度很好，一定会再光顾贵店的） 发货速度：：★★★</a></p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="ui-applist-item">
+                        <a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3660804" target="_blank"
+                           class="fn-left ui-share-img"> <img width="218" height="218" alt="酸爽火锅料，吃完忘不了"
+                                                              src="http://zhanweitu.com/218/218/8"></a>
+
+                        <p class="ui-applist-item-title"><a target="_blank"
+                                                            href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3660804">酸爽火锅料，吃完忘不了</a>
+                        </p>
+
+                        <div class="ui-share">
+                            <a href="http://bbs.shikee.com/home.php?mod=space&amp;uid=2089046507" target="_blank"> <img
+                            width="60" height="60" alt="feifei221"
+                            src="http://userimg.shikee.com/data/avatar/020/890/465/07_avatar_middle.jpg"></a>
+
+                            <div class="block-info fn-right">
+                                <p class="ui-share-name"><a
+                                href="http://bbs.shikee.com/home.php?mod=space&amp;uid=2089046507" target="_blank">feifei221</a>
+                                </p>
+
+                                <p class="ui-share-info"><a target="_blank"
+                                                            href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3660804">试用心得：昨儿晚上吃了，味道不错，日期也是最新生产的，收到可放心食用
+                                    味道很</a></p>
+                            </div>
+                        </div>
+                    </li>
+                </textarea>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="mt10 shikeeTalent bg-loading">
+    <textarea>
+        <div class="local-head">
+            <h3>试客达人<span>HIPSTER</span></h3>
+        </div>
+        <div class="mt20 clearfix">
+            <div class="fn-left  font-y gallery">
+                <div class="pic">
+                    <img width="320" height="390" alt="" src="http://zhanweitu.com/320/390/1">
+                </div>
+                <div class="shikeeTalent-report">
+                    <div class="Talentname-n">
+                        <p>试客名称：<a href="http://bbs.shikee.com/home.php?mod=space&amp;uid=2089111223" target="_blank">dengzl1228</a>
+                        </p>
+
+                        <p>精华报告：<a href="http://baogao.shikee.com/list.htm?uid=2089111223&amp;digest=3"
+                                   style="color:black;" target="_blank">8篇</a></p>
+                    </div>
+                    <ul>
+
+                        <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3446741" target="_blank">
+                            <img alt="" src="http://zhanweitu.com/80/80/1"></a></li>
+
+                        <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3409801" target="_blank">
+                            <img alt="" src="http://zhanweitu.com/80/80/2"></a></li>
+
+                        <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3338651" target="_blank">
+                            <img alt="" src="http://zhanweitu.com/80/80/3"></a></li>
+
+                    </ul>
+
+                </div>
+                <div class="follow"><a
+                href="http://bbs.shikee.com/home.php?mod=spacecp&amp;ac=friend&amp;op=add&amp;uid=2089111223"
+                target="_blank">关注</a></div>
+            </div>
+
+
+            <div id="share-slider-wrap" class="fn-left shikeeTalentlist">
+
+                <div class="Talent-t"></div>
+                <div class="shikeeTalentlist-t">
+                    <ul id="J-shikeeTalentlist-ul" class="shikeeTalentlist-ul">
+
+                        <li class=""><a href="http://bbs.shikee.com/home.php?mod=space&amp;uid=2089078403"
+                                        target="_blank"> <img
+                        onerror="this.onerror=null;this.src='http://www.shikee.com/images/newItem/avatar/face_big.jpg'"
+                        width="184" height="184" alt=""
+                        src="http://userimg.shikee.com/data/avatar/020/890/784/103_avatar_big.jpg1"> </a>
+
+                            <p class="shikeeTalentname" style="display: none;"><a
+                            href="http://bbs.shikee.com/home.php?mod=spacecp&amp;ac=friend&amp;op=add&amp;uid=2089078403"
+                            target="_blank" class="fn-right"><i></i>关注</a>呆呆的幸福</p>
+
+                            <b class="arrow"></b></li>
+
+                        <li class="selected"><a href="http://bbs.shikee.com/home.php?mod=space&amp;uid=2090013596"
+                                                target="_blank"> <img width="184" height="184" alt=""
+                                                                      src="http://userimg.shikee.com/data/avatar/020/900/135/96_avatar_big.jpg">
+                        </a>
+
+                            <p class="shikeeTalentname" style="display: none;"><a
+                            href="http://bbs.shikee.com/home.php?mod=spacecp&amp;ac=friend&amp;op=add&amp;uid=2090013596"
+                            target="_blank" class="fn-right"><i></i>关注</a>小瓷儿乖乖</p>
+
+                            <b class="arrow"></b></li>
+
+                        <li class=""><a href="http://bbs.shikee.com/home.php?mod=space&amp;uid=2089046661"
+                                        target="_blank"> <img width="184" height="184" alt=""
+                                                              src="http://userimg.shikee.com/data/avatar/020/890/466/61_avatar_big.jpg">
+                        </a>
+
+                            <p class="shikeeTalentname" style="display: none;"><a
+                            href="http://bbs.shikee.com/home.php?mod=spacecp&amp;ac=friend&amp;op=add&amp;uid=2089046661"
+                            target="_blank" class="fn-right"><i></i>关注</a>史佳人</p>
+                            <b class="arrow"></b></li>
+
+                    </ul>
+                </div>
+                <div id="share-slider-content" class="mt10 shikeeTalentlist-r">
+                    <ul style="position: absolute; z-index: 9; display: none;">
+
+                        <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3820258" target="_blank">
+                            <img width="140" height="140" alt="" src="http://zhanweitu.com/140/140/1"></a></li>
+
+                        <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3619204" target="_blank">
+                            <img width="140" height="140" alt="" src="http://zhanweitu.com/140/140/2"></a></li>
+
+                        <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3607558" target="_blank">
+                            <img width="140" height="140" alt="" src="http://zhanweitu.com/140/140/3"></a></li>
+
+                        <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3328380" target="_blank">
+                            <img width="140" height="140" alt="" src="http://zhanweitu.com/140/140/4"></a></li>
+
+                    </ul>
+                    <ul style="position: absolute; z-index: 1; display: block;">
+
+                        <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3525131" target="_blank">
+                            <img width="140" height="140" alt="" src="http://zhanweitu.com/140/140/5"></a></li>
+
+                        <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3595826" target="_blank">
+                            <img width="140" height="140" alt="" src="http://zhanweitu.com/140/140/6"></a></li>
+
+                        <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3630204" target="_blank">
+                            <img width="140" height="140" alt="" src="http://zhanweitu.com/140/140/7"></a></li>
+
+                        <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3445804" target="_blank">
+                            <img width="140" height="140" alt="" src="http://zhanweitu.com/140/140/8"></a></li>
+
+                    </ul>
+                    <ul style="position: absolute; z-index: 1; display: none;">
+
+                        <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=2164788" target="_blank">
+                            <img width="140" height="140" alt="" src="http://zhanweitu.com/140/140/9"></a></li>
+
+                        <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=2241727" target="_blank">
+                            <img width="140" height="140" alt="" src="http://zhanweitu.com/140/140/10"></a></li>
+
+                        <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=2263346" target="_blank">
+                            <img width="140" height="140" alt="" src="http://zhanweitu.com/140/140/11"></a></li>
+
+                        <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=1982727" target="_blank">
+                            <img width="140" height="140" alt="" src="http://zhanweitu.com/140/140/12"></a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+        <script>
+            //试客达人HIPSTER
+            $(function () {
+                $("#share-slider-wrap").Xslider({
+                    effect: 'fade',
+                    auto: true,
+                    content_box: '#share-slider-content',
+                    content_tag: 'ul',
+                    switcher_box: '.shikeeTalentlist-ul',
+                    active_class: 'selected'
+                });
+                $("#J-shikeeTalentlist-ul li").hover(function () {
+                    $(this).find('p').slideDown(100);
+                }, function () {
+                    $(this).find('p').slideUp(100);
+                });
+            });
+        </script>
+    </textarea>
+</div>
+
+<div class="bg-favorite mt20 clearfix bg-loading">
+    <textarea>
+        <div class="local-head">
+            <a class="fn-right" target="_blank" href="http://list.shikee.com/try/productlist.htm">more</a>
+
+            <h3>大家最喜爱的<span>LOVE</span></h3>
+        </div>
+        <div id="alllike-slider" class="alllike">
+            <a class="tmall-slide tmall-slide-right"></a> <a class="tmall-slide tmall-slide-left"></a>
+
+            <div id="alllike-slider-content">
+                <ul class="clearfix alllike-list" style="width:1000px;">
+
+                    <li class="report-list-item">
+                        <div class="fn-left report-list-item-bp">
+                            <a target="_blank" href="http://www.shikee.com/tryshow/45143.html"> <img width="230"
+                                                                                                     height="230"
+                                                                                                     src="http://zhanweitu.com/230/230/1">
+
+                                <div class="desc">未叮合金电镀白金戒指女戒</div>
+                            </a>
+                        </div>
+                        <div class="fn-left report-list-item-r">
+                            <div class="font-y all-p-link"><a href="http://baogao.shikee.com/list.htm?tryid=45143"
+                                                              target="_blank">查看宝贝的所有报告<i></i></a></div>
+                            <ul class="report-list-r-ul">
+
+                                <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3864215"
+                                       target="_blank"> <img class="s70 rt" src="http://zhanweitu.com/105/105/1"><span
+                                class="report-list-title">未叮合金电镀白金戒指女戒</span></a></li>
+
+                                <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3864225"
+                                       target="_blank"> <img class="s70 rt" src="http://zhanweitu.com/105/105/2"><span
+                                class="report-list-title">未叮戒指，璀璨指尖</span></a></li>
+
+                                <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3884550"
+                                       target="_blank"> <img class="s70 rt" src="http://zhanweitu.com/105/105/3"><span
+                                class="report-list-title">未叮戒指，简约经典！</span></a></li>
+
+                                <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3884570"
+                                       target="_blank"> <img class="s70 rt" src="http://zhanweitu.com/105/105/4"><span
+                                class="report-list-title">六爪白金戒指</span></a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="report-list-item">
+                        <div class="fn-left report-list-item-bp">
+                            <a target="_blank" href="http://www.shikee.com/tryshow/46131.html"> <img width="230"
+                                                                                                     height="230"
+                                                                                                     src="http://zhanweitu.com/230/230/2">
+
+                                <div class="desc">轩庆云南特产玫瑰鲜花荞麦饼糕点</div>
+                            </a>
+                        </div>
+                        <div class="fn-left report-list-item-r">
+                            <div class="font-y all-p-link"><a href="http://baogao.shikee.com/list.htm?tryid=46131"
+                                                              target="_blank">查看宝贝的所有报告<i></i></a></div>
+                            <ul class="report-list-r-ul">
+
+                                <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3868479"
+                                       target="_blank"> <img class="s70 rt" src="http://zhanweitu.com/105/105/5"><span
+                                class="report-list-title">【温柔试用小报告】之轩庆云南特产玫瑰鲜花饼</span></a></li>
+
+                                <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3869324"
+                                       target="_blank"> <img class="s70 rt" src="http://zhanweitu.com/105/105/6"><span
+                                class="report-list-title">轩庆云南特产玫瑰鲜花荞麦屏糕点</span></a></li>
+
+                                <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3877813"
+                                       target="_blank"> <img class="s70 rt" src="http://zhanweitu.com/105/105/7"><span
+                                class="report-list-title">轩庆云南玫瑰鲜花荞麦饼  美味</span></a></li>
+
+                                <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3877972"
+                                       target="_blank"> <img class="s70 rt" src="http://zhanweitu.com/105/105/8"><span
+                                class="report-list-title">【轩庆食品旗舰店】美味营养的荞麦玫瑰饼</span></a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <ul class="clearfix alllike-list" style="width:1000px;">
+                    <li class="report-list-item">
+                        <div class="fn-left report-list-item-bp">
+                            <a target="_blank" href="http://www.shikee.com/tryshow/45815.html"> <img width="230"
+                                                                                                     height="230"
+                                                                                                     data-src="http://zhanweitu.com/230/230/3">
+
+                                <div class="desc"> 2013最新款 职业裹裙</div>
+                            </a>
+                        </div>
+                        <div class="fn-left report-list-item-r">
+                            <div class="all-p-link"><a href="http://baogao.shikee.com/list.htm?tryid=45815"
+                                                       target="_blank">查看宝贝的所有报告<i></i></a></div>
+                            <ul class="report-list-r-ul">
+
+                                <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3876113"
+                                       target="_blank"> <img class="s70 rt"
+                                                             data-src="http://zhanweitu.com/105/105/9"><span
+                                class="report-list-title">百搭性感包臀裙</span></a></li>
+
+                                <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3883437"
+                                       target="_blank"> <img class="s70 rt"
+                                                             data-src="http://zhanweitu.com/105/105/10"><span
+                                class="report-list-title">玛卡金恩  包臀裙</span></a></li>
+
+                                <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3883447"
+                                       target="_blank"> <img class="s70 rt"
+                                                             data-src="http://zhanweitu.com/105/105/11"><span
+                                class="report-list-title">职业裹裙，秀出你的美</span></a></li>
+
+                                <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3886902"
+                                       target="_blank"> <img class="s70 rt"
+                                                             data-src="http://zhanweitu.com/105/105/12"><span
+                                class="report-list-title">职业裹裙，穿出潮流</span></a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="report-list-item">
+                        <div class="fn-left report-list-item-bp">
+                            <a target="_blank" href="http://www.shikee.com/tryshow/45319.html"> <img width="230"
+                                                                                                     height="230"
+                                                                                                     data-src="http://zhanweitu.com/230/230/4">
+
+                                <div class="desc">请拍天蓝色豆豆鞋</div>
+                            </a>
+                        </div>
+                        <div class="fn-left report-list-item-r">
+                            <div class="all-p-link"><a href="http://baogao.shikee.com/list.htm?tryid=45319"
+                                                       target="_blank">查看宝贝的所有报告<i></i></a></div>
+                            <ul class="report-list-r-ul">
+
+                                <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3844851"
+                                       target="_blank"> <img class="s70 rt"
+                                                             data-src="http://zhanweitu.com/105/105/13"><span
+                                class="report-list-title">豆豆鞋</span></a></li>
+
+                                <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3844924"
+                                       target="_blank"> <img class="s70 rt"
+                                                             data-src="http://zhanweitu.com/105/105/14"><span
+                                class="report-list-title">品质时尚雷艾男士豆豆鞋</span></a></li>
+
+                                <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3850123"
+                                       target="_blank"> <img class="s70 rt"
+                                                             data-src="http://zhanweitu.com/105/105/15"><span
+                                class="report-list-title">天蓝色豆豆鞋</span></a></li>
+
+                                <li><a href="http://bbs.shikee.com/tryreport.php?mod=view&amp;joinid=3856217"
+                                       target="_blank"> <img class="s70 rt"
+                                                             data-src="http://zhanweitu.com/105/105/16"><span
+                                class="report-list-title">老爸的第一双豆豆鞋</span></a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            //大家最喜爱的LOVE
+            $(function () {
+                $('#alllike-slider').Xslider({
+                    effect: 'scrollx',
+                    content_box: '#alllike-slider-content',
+                    content_tag: 'ul.alllike-list',
+                    next: '.tmall-slide-left',
+                    prev: '.tmall-slide-right',
+                    load_type: 'img'
+                });
+            });
+        </script>
+    </textarea>
+</div>
+
+<div class="mt10 alltry bg-loading">
+    <textarea>
+        <div class="local-head">
+            <a class="fn-right" target="_blank" href="http://list.shikee.com/try/productlist.htm">more</a>
+
+            <h3>大家都在试用的<span>TRY</span></h3>
+        </div>
+        <ul class=" mt10 alltry-list clearfix" id="everyonetry">
+
+            <li>
+                <a href="http://www.shikee.com/tryshow/44061.html" target="_blank"> <img width="170" height="170" alt=""
+                                                                                         src="http://zhanweitu.com/170/170/1">
+
+                    <p class="all-desc">双层碗碟水架碗筷架物架收纳架</p>
+                </a>
+            </li>
+
+            <li>
+                <a href="http://www.shikee.com/tryshow/45815.html" target="_blank"> <img width="170" height="170" alt=""
+                                                                                         src="http://zhanweitu.com/170/170/2">
+
+                    <p class="all-desc all-desc-br"> 2013最新款 职业裹裙</p>
+                </a>
+            </li>
+
+            <li>
+                <a href="http://www.shikee.com/tryshow/45422.html" target="_blank"> <img width="170" height="170" alt=""
+                                                                                         src="http://zhanweitu.com/170/170/3">
+
+                    <p class="all-desc">韩版T恤 宽松款</p>
+                </a>
+            </li>
+
+            <li>
+                <a href="http://www.shikee.com/tryshow/43793.html" target="_blank"> <img width="170" height="170" alt=""
+                                                                                         src="http://zhanweitu.com/170/170/4">
+
+                    <p class="all-desc all-desc-br">H扣大牌长款钱包女包</p>
+                </a>
+            </li>
+
+            <li>
+                <a href="http://www.shikee.com/tryshow/44914.html" target="_blank"> <img width="170" height="170" alt=""
+                                                                                         src="http://zhanweitu.com/170/170/5">
+
+                    <p class="all-desc">第3季夏季松糕亮片夹脚凉鞋</p>
+                </a>
+            </li>
+
+        </ul>
+    </textarea>
+</div>
+</div>
+
+<div class="mt10 footer_container" id="footer_slide_wrap">
+    <div class="grid-RW copyright">
+        <div class="companyInfo_link">
+            <p>
+                <a target="_blank" href="http://192.168.1.210:9997//us/about.html">关于我们</a> <a target="_blank"
+                                                                                               href="http://e.shikee.com/">商务合作</a>
+                <a target="_blank" href="http://192.168.1.210:9997//us/adservers.html">广告服务</a> <a target="_blank"
+                                                                                                   href="http://192.168.1.210:9997//us/confer.html">用户协议</a>
+                <a target="_blank" href="http://help.shikee.com/">帮助中心</a> <a target="_blank"
+                                                                              href="http://192.168.1.210:9997//us/job.html">诚聘英才</a>
+            </p>
+
+            <p>
+                Copyright © 2006-2013 shikee.com 版权所有 桂B2-20110047 <a target="_blank" href="http://www.miibeian.gov.cn">桂ICP备07009935号</a><a
+            target="_blank" href="http://www.cnzz.com/stat/website.php?web_id=905537">站长统计</a>
+            </p>
+        </div>
+        <div class="relation">
+            <p><span class="tho-num"><s></s>0771-5665208</span> <span class="e-mail"><s></s>kf1@shikee.com</span></p>
+        </div>
+    </div>
+</div>
+<script src="index.js"></script>
+<script>
+    $(function () {
+
+        //联盟最新活动
+        $("#activity_slide_wrap").Xslider({
+            auto: true,
+            content_box: '#activity_slide_container',
+            prev: '.activity-slide-left',
+            next: '.activity-slide-right',
+            index: '#activity_index',
+            load_type: 'img'
+        });
+
+        //默认头像
+        $('img.J_avatar').avatarError();
+
+        //懒加载
+        $('.bg-loading').datalazyload();
+
+        //焦点轮换
+        $('#main-slider').Xslider({
+            effect: 'scrolly',
+            auto: true,
+            content_box: '.reportimg ul',
+            switcher_box: '#J_reportbtn-list',
+            active_class: 'selected',
+            index: 'list',
+            load_type: 'img',
+            callback_fn: function (index) {
+                $('#main-slider-text a').hide().eq(index).show();
+            }
+        });
+
+        // 攻略、规则、帮助
+        $("#notice_slide_wrap").Xslider({
+            auto: true,
+            content_box: '#notice_slide_container',
+            content_tag: 'ul.notice_slide_ul',
+            switcher_box: '#notice_slide_switcher',
+            switcher_tag: 'a',
+            active_class: 'tab-cur'
+        });
+
+
+        // 最新精华报告NEW
+        $('#essence-slider').Xslider({
+            effect: 'scrollx',
+            content_box: '.essence-slider-content',
+            content_tag: 'ul',
+            next: '.tmall-slide-left',
+            prev: '.tmall-slide-right',
+            load_type: 'textarea'
+        });
+
+        $("#main-slider-text a").eq(0).css("display", "inline");
+        $("#everyonetry li:odd").find('p').addClass("all-desc-br");
+
+        // search input focus
+        $("#keySearch").focusin(noBG).blur(setBG);
+        function noBG() {
+            $(this).css('background-image', 'none');
+        }
+
+        function setBG() {
+            var v = $.trim(this.value);
+            if (v != '') return noBG();
+            $(this).css('background-image', 'url("/images/con_ico.png")');
+        }
+
+    });
+    //回到顶部
+    (function () {
+        var backToTop = function (elmId, h, t) { /*参数：触发返回顶部的元素,滚动多高才出现该元素,过渡时间(毫秒)*/
+            var fo = $(elmId).click(function () {
+                $('body,html').animate({scrollTop: 0}, t);
+                return false;
+            }), $w = $(window), minW = 1140;
+            if ($w.width() >= minW) {
+                $(this).scroll(function () {
+                    $(this).scrollTop() > h ? fo.fadeIn(t) : fo.fadeOut(t);
+                });
+            }
+        };
+        $('<a id="backToTop" title="回到顶部" target="_self" href="#"></a>').appendTo('body');
+        backToTop("#backToTop", 0, 300);
+    })();
+</script>
+</body>
+</html>
