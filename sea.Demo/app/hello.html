@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="../static/hello/src/style.css">
 </head>
 <body>
+
 <div id="container">
   <img src="https://i.alipayobjects.com/e/201211/1cqKb32QfE.png" width="44" height="44" alt="H">
   <img src="https://i.alipayobjects.com/e/201211/1cqKb2rJHI.png" width="44" height="44" alt="e">
@@ -30,15 +31,17 @@
       "jquery": "jquery/jquery/1.10.1/jquery.js"
     }
   });
+    seajs.use("../static/hello/src/main");
 
   // For development
-  if (location.href.indexOf("?dev") > 0) {
+  /*if (location.href.indexOf("?dev") > 0) {
     seajs.use("../static/hello/src/main");
   }
   // For production
   else {
-    seajs.use("examples/hello/1.0.0/main");
-  }
+    seajs.use("examples/hello/1.0.0/main-debug");
+  }*/
+
 </script>
 
 </body>

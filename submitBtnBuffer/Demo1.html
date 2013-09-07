@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Demo1 - submitBtnBuffer</title>
+    <style type="text/css">
+        #testBtn{ overflow: visible;}
+    </style>
+    <script type="text/javascript" src="../js/jquery-1.10.1.min.js"></script>
+
+</head>
+<body>
+<input id="testBtn" type="button" value="  提  交  "/>
+<script type="text/javascript">
+
+    $('#testBtn').on('click',function(){
+        var tmpTime = 5,$testBtn = $('#testBtn');
+        $testBtn.prop('disabled',true);
+        var timer = setInterval(function(){
+            $testBtn.val('正在提交，请等待('+ (--tmpTime) +')秒……');
+            if(tmpTime === 0){
+                clearInterval(timer);
+                $testBtn.prop('disabled',false).val('  提  交  ');
+            }
+        },1000);
+    });
+
+
+
+</script>
+</body>
+</html>

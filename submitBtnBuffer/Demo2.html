@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Demo2 - submitBtnBuffer</title>
+    <script type="text/javascript" src="../js/jquery-1.10.1.min.js"></script>
+    <style type="text/css">
+        body{ font-family: arial;}
+        body,ul,li{margin: 0;padding: 0;}
+        ul{width: 1000px; margin:0 auto;}
+        li{list-style: none;}
+        li{float: left; margin: 5px; height: 100px; width: 100px; overflow: hidden; line-height:100px; text-align: center; background-color: #333; color: #FFF; cursor: pointer;}
+    </style>
+</head>
+<body>
+
+<ul id="box">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+    <li>9</li>
+    <li>10</li>
+    <li>11</li>
+    <li>12</li>
+    <li>13</li>
+</ul>
+
+<script type="text/javascript">
+    var tempBool = true,timer;
+    $('#box li').on('click',function(){
+        if(tempBool){
+            var randNum = parseInt(Math.random()*13);
+            if($(this).text() == randNum){
+                console.log('恭喜中标了!!!!!');
+            }else{
+                console.log('再来一次！您选：'+$(this).text()+' 系统：'+randNum);
+            }
+            tempBool = false;
+            timeFn();
+        }else{
+            console.log('请等待……');
+            timeFn();
+        }
+    });
+    function timeFn(){
+        timer && clearTimeout(timer);
+        timer = setTimeout(function(){
+            tempBool = true;
+        },500);
+    }
+</script>
+
+</body>
+</html>

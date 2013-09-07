@@ -64,5 +64,9 @@ define(function(require, exports, module) {
 
   function random(x) { return Math.random() * x };
 
+  function test(){
+      console.log('test');
+  }
+
 });
 

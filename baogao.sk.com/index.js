@@ -1,5 +1,4 @@
-;
-(function ($, window) {
+;(function ($, window) {
     var $window = $(window);
     $.fn.Xslider = function (options) {  //选项卡、焦点图、事件触发加载图片
         var settings = $.extend({
@@ -79,8 +78,7 @@
                 case 'none':
                     $contents.hide().eq(index).show();
                     break;
-            }
-            ;
+            };
 
 //            回调函数 返回内容索引
             if (typeof settings.callback_fn === 'function') {
@@ -95,8 +93,7 @@
         var indexSum = function () {
             if ($(settings.index).length > 0) {
                 $(settings.index).html(('<em class="index">' + index + '</em>/<em class="count">' + $contents.length + '</em>'));
-            }
-            ;
+            };
         };
         indexSum();
 
@@ -159,7 +156,7 @@
 
         return this;
     },
-        $.fn.datalazyload = function () { //懒加载(滚动条滚动加载)
+    $.fn.datalazyload = function () { //懒加载(滚动条滚动加载)
             var $this = $(this);
             $window.scroll(function () {
                 var topH = $window.height() + $window.scrollTop();
@@ -173,7 +170,7 @@
             });
             $window.trigger('scroll');
         },
-        $.fn.avatarError = function () {  // 默认图片处理
+    $.fn.avatarError = function () {  // 默认图片处理
             $(this).each(function () {
                 this.onerror = function () {
                     this.onerror = null;
