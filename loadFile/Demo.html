@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Demo - loadFile</title>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        function loadCssFile(files){
+            var urls = files && typeof (files) == 'string' ? [files] : files;
+            for(var i= 0,len = urls.length;i<len;i++){
+                //                $('<link>',{rel:'stylesheet',href:'css.css'}).appendTo('head');
+                    $('<link>',{rel:'stylesheet',href:urls[i]}).appendTo('head');
+
+            };
+        };
+        loadCssFile(['css.css','css2.css']);
+
+    </script>
+</head>
+<body>
+    <h1>Demo - loadFile</h1>
+
+
+    <script type="text/javascript">
+//        function loadCssFile(files) {
+//            var urls = files && typeof (files) == "string" ? [files] : files;
+//            for (var i = 0, len = urls.length; i < len; i++) {
+//                var cssFile = document.createElement("link");
+//                cssFile.setAttribute('rel', 'stylesheet');
+//                cssFile.setAttribute('href', urls[i]);
+//                document.getElementsByTagName('head')[0].appendChild(cssFile);
+//            }
+//        }
+//        loadCssFile(['css.css','css2.css','']);
+
+    </script>
+</body>
+</html>

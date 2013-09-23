@@ -68,7 +68,7 @@
                     $content_box.stop().animate({left: l}, settings.speed);
                     break;
                 case 'scrolly':
-                    $contents.css({display: 'block'});
+//                    $contents.css({display: 'block'});
                     var t = content_top - $contents.height() * index;
                     $content_box.stop().animate({top: t}, settings.speed);
                     break;

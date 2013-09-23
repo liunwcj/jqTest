@@ -5,28 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7aef97ac-cb15-4225-8db9-803b3b7a5915" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery.colorPicher/images/color_panel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery.colorPicher/images/color_picker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery.colorPicher/Demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/submitBtnBuffer/Demo1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/submitBtnBuffer/Demo2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery.colorPicher/colorPicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery.colorPicher/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sea.Demo/test/test-debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sea.Demo/test/test1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery.colorPicher/wind.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loadFile/Demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loadFile/css.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loadFile/css2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/loadFile/js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yabo/test.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/grids.css" afterPath="$PROJECT_DIR$/css/grids.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sea.Demo/app/hello.html" afterPath="$PROJECT_DIR$/sea.Demo/app/hello.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.select/index.html" afterPath="$PROJECT_DIR$/jquery.select/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baogao.sk.com/index.js" afterPath="$PROJECT_DIR$/baogao.sk.com/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sea.Demo/static/hello/src/spinning.js" afterPath="$PROJECT_DIR$/sea.Demo/static/hello/src/spinning.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.tab/test3.html" afterPath="$PROJECT_DIR$/jquery.tab/test3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jqTest.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1378535297953" ignored="false" />
+    <file path="/Dummy.txt" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1379916105218" ignored="false" />
     <file path="/Readme.md" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1367842417375" ignored="false" />
     <file path="/test2.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1378536430421" ignored="false" />
     <file path="/*.regexp" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1377053156531" ignored="false" />
@@ -37,7 +29,7 @@
     <file path="E:/js_Demo/test_ws/jsHIQ/test1.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1369276284296" ignored="false" />
     <file path="/jquery.topfixed.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371901275312" ignored="false" />
     <file path="/dummy.xml" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1378369420203" ignored="false" />
-    <file path="/Demo.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1377849834417" ignored="false" />
+    <file path="/Demo.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1379839570163" ignored="false" />
     <file path="E:/js_Demo/test_ws/frameset/1.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371726753786" ignored="false" />
     <file path="E:/js_Demo/test_ws/frameset/2.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371708789973" ignored="false" />
     <file path="E:/js_Demo/test_ws/frameset/index.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1371726353755" ignored="false" />
@@ -65,12 +57,12 @@
     <file path="/setInterval.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1374029603031" ignored="false" />
     <file path="$PROJECT_DIR$/../Kissy/Demo.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1374052399234" ignored="false" />
     <file path="$PROJECT_DIR$/../../js_Demo/jquery.DataLazyLoad/Demo.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1374478205843" ignored="false" />
-    <file path="/Demo1.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1378431870625" ignored="false" />
+    <file path="/Demo1.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1379842437335" ignored="false" />
     <file path="/jquery.datalazyload.js" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1374723867875" ignored="false" />
     <file path="$PROJECT_DIR$/../../js_Demo/css/test.css" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1375059955609" ignored="false" />
     <file path="/hello.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1377134193343" ignored="false" />
     <file path="/demo.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1377053806015" ignored="false" />
-    <file path="/a.js" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1377055165265" ignored="false" />
+    <file path="/a.js" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1379039112828" ignored="false" />
     <file path="/spinning.js" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1377077184828" ignored="false" />
     <file path="/main.js" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1377076717937" ignored="false" />
     <file path="/test-debug.js" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1377137824515" ignored="false" />
@@ -92,8 +84,16 @@
     <file path="/Demo3.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1378541507000" ignored="false" />
     <file path="$PROJECT_DIR$/../../js_Demo/luckGame/test.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1378437821500" ignored="false" />
     <file path="$PROJECT_DIR$/../../js_Demo/luckGame/test1.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1378454330640" ignored="false" />
-    <file path="$PROJECT_DIR$/../../js_Demo/luckGame/test2.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1378536435125" ignored="false" />
+    <file path="$PROJECT_DIR$/../../js_Demo/luckGame/test2.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1378722121921" ignored="false" />
     <file path="$PROJECT_DIR$/../../js_Demo/luckGame/test3.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1378540222234" ignored="false" />
+    <file path="$PROJECT_DIR$/../../js_Demo/jq_each/Demo.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1378862318093" ignored="false" />
+    <file path="$PROJECT_DIR$/../../js_Demo/test5.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1378971271609" ignored="false" />
+    <file path="/test5.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1378971248937" ignored="false" />
+    <file path="/test.css" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1379039611625" ignored="false" />
+    <file path="/js.js" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1379832130476" ignored="false" />
+    <file path="/css.css" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1379833001804" ignored="false" />
+    <file path="$PROJECT_DIR$/../../js_Demo/loadFile/Demo1.html" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1379842479616" ignored="false" />
+    <file path="/css2.css" changelist="7aef97ac-cb15-4225-8db9-803b3b7a5915" time="1379835733679" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +112,82 @@
     <favorites_list name="jqTest" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Demo.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loadFile/Demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="44" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/headjs/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="19" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/head.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="189" column="22" selection-start="6019" selection-end="6027" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.datalazyload.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baogao.sk.com/jquery.datalazyload.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="11" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/baogao.sk.com/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="47" selection-start="567" selection-end="567" vertical-scroll-proportion="-0.3533569">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="css.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loadFile/css.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="23" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="css2.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loadFile/css2.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="51" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loadFile/js.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -131,13 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/jquery.DataLazyLoad/jquery.datalazyload.js" />
-        <option value="$PROJECT_DIR$/sea.Demo/sea-modules/examples/hello/1.0.0/main-debug.js" />
-        <option value="$PROJECT_DIR$/baogao.sk.com/demo.html" />
-        <option value="$PROJECT_DIR$/baogao.sk.com/jquery.xslider.js" />
-        <option value="$PROJECT_DIR$/baogao.sk.com/jquery.datalazyload.js" />
-        <option value="$PROJECT_DIR$/sea.Demo/static/hello/src/main.js" />
-        <option value="$PROJECT_DIR$/sea.Demo/static/hello/src/spinning.js" />
         <option value="$PROJECT_DIR$/sea.Demo/test/test-debug.js" />
         <option value="$PROJECT_DIR$/sea.Demo/app/hello.html" />
         <option value="$PROJECT_DIR$/sea.Demo/test/test1.html" />
@@ -145,8 +213,15 @@
         <option value="$PROJECT_DIR$/jquery.colorPicher/wind.js" />
         <option value="$PROJECT_DIR$/jquery.colorPicher/Demo.html" />
         <option value="$PROJECT_DIR$/submitBtnBuffer/Demo1.html" />
-        <option value="$PROJECT_DIR$/baogao.sk.com/index.js" />
         <option value="$PROJECT_DIR$/submitBtnBuffer/Demo2.html" />
+        <option value="$PROJECT_DIR$/yabo/test.html" />
+        <option value="$PROJECT_DIR$/yabo/test.css" />
+        <option value="$PROJECT_DIR$/loadFile/js.js" />
+        <option value="$PROJECT_DIR$/loadFile/css.css" />
+        <option value="$PROJECT_DIR$/loadFile/css2.css" />
+        <option value="$PROJECT_DIR$/loadFile/Demo.html" />
+        <option value="$PROJECT_DIR$/headjs/test.html" />
+        <option value="$PROJECT_DIR$/baogao.sk.com/index.js" />
       </list>
     </option>
   </component>
@@ -206,30 +281,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jqTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jqTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jqTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jqTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="submitBtnBuffer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -239,7 +290,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.sourceCode.JavaScript" />
+    <property name="options.lastSelected" value="editor.preferences.completion" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="last_opened_file_path" value="D:/web_tools/Git/bin/git.exe" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
@@ -248,11 +299,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PHP\APMSer\APMServ5.2.6\www\htdocs\GitHub\jqTest\loadFile" />
       <recent name="F:\PHP\APMSer\APMServ5.2.6\www\htdocs\GitHub\jqTest\jquery.colorPicher" />
       <recent name="F:\PHP\APMSer\APMServ5.2.6\www\htdocs\GitHub\jqTest\jquery.titleFlicker" />
       <recent name="F:\PHP\APMSer\APMServ5.2.6\www\htdocs\GitHub\jqTest\yabo" />
       <recent name="F:\PHP\APMSer\APMServ5.2.6\www\htdocs\GitHub\jqTest" />
-      <recent name="F:\PHP\APMSer\APMServ5.2.6\www\htdocs\GitHub\jqTest\loadScript" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\PHP\APMSer\APMServ5.2.6\www\htdocs\GitHub\jqTest\jquery.colorPicher" />
@@ -400,12 +451,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1688" height="1005" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18561064" sideWeight="0.6045455" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18561064" sideWeight="0.6045455" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39545456" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -497,103 +548,100 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jquery.DataLazyLoad/Demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="35" selection-start="554" selection-end="554" vertical-scroll-proportion="0.38976857" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery-1.10.1.min.js">
+    <entry file="file://$PROJECT_DIR$/jquery.DataLazyLoad/Demo1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery.colorPicher/wind.js">
+    <entry file="file://$PROJECT_DIR$/yabo/test.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="519" column="27" selection-start="14212" selection-end="14212" vertical-scroll-proportion="0.2932862">
+        <state line="6" column="31" selection-start="199" selection-end="199" vertical-scroll-proportion="0.14134276" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yabo/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="2722" selection-start="2722" selection-end="2722" vertical-scroll-proportion="0.4475854" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yabo/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="27" selection-start="347" selection-end="347" vertical-scroll-proportion="0.31668696" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yabo/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="38" selection-start="333" selection-end="333" vertical-scroll-proportion="0.21201414" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery.DataLazyLoad/jquery.datalazyload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="34" selection-start="535" selection-end="535" vertical-scroll-proportion="0.30624264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery.DataLazyLoad/Demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="41" selection-start="913" selection-end="913" vertical-scroll-proportion="0.5602923" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baogao.sk.com/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="611" column="66" selection-start="35139" selection-end="35139" vertical-scroll-proportion="0.4494519" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loadFile/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery.colorPicher/colorPicker.js">
+    <entry file="file://$PROJECT_DIR$/loadFile/css2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="334" column="0" selection-start="12959" selection-end="12959" vertical-scroll-proportion="0.45465252" />
+        <state line="0" column="51" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery.colorPicher/Demo.html">
+    <entry file="file://$PROJECT_DIR$/loadFile/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="17" selection-start="986" selection-end="986" vertical-scroll-proportion="0.6090134" />
+        <state line="2" column="23" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loadFile/Demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="44" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/headjs/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="6" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.29354447" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sea.Demo/test/test-debug.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="115" selection-end="115" vertical-scroll-proportion="0.07067138" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sea.Demo/test/test1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="8" selection-start="379" selection-end="379" vertical-scroll-proportion="0.31668696" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sea.Demo/app/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="42" selection-start="1513" selection-end="1513" vertical-scroll-proportion="0.5127893">
+        <state line="21" column="19" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sea.Demo/static/hello/src/style.css">
+    <entry file="file://$PROJECT_DIR$/js/head.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="189" column="22" selection-start="6019" selection-end="6027" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sea.Demo/static/hello/src/main.js">
+    <entry file="file://$PROJECT_DIR$/baogao.sk.com/jquery.datalazyload.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="127" selection-end="127" vertical-scroll-proportion="0.21201414">
+        <state line="23" column="11" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baogao.sk.com/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="56" selection-start="5147" selection-end="5152" vertical-scroll-proportion="0.59128386">
-          <folding>
-            <element signature="e#5993#6585#0" expanded="false" />
-            <element signature="e#6622#7016#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/submitBtnBuffer/Demo1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="30" selection-start="624" selection-end="624" vertical-scroll-proportion="0.48721072">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sea.Demo/static/hello/src/spinning.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="24" selection-start="635" selection-end="635" vertical-scroll-proportion="0.65959954">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baogao.sk.com/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.19488429">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/submitBtnBuffer/Demo2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="34" selection-start="91" selection-end="91" vertical-scroll-proportion="0.09744214">
+        <state line="12" column="47" selection-start="567" selection-end="567" vertical-scroll-proportion="-0.3533569">
           <folding />
         </state>
       </provider>
