@@ -1,4 +1,5 @@
-;(function ($, window) {
+;
+(function ($, window) {
     var $window = $(window);
     $.fn.Xslider = function (options) {  //选项卡、焦点图、事件触发加载图片
         var settings = $.extend({
@@ -78,7 +79,8 @@
                 case 'none':
                     $contents.hide().eq(index).show();
                     break;
-            };
+            }
+            ;
 
 //            回调函数 返回内容索引
             if (typeof settings.callback_fn === 'function') {
@@ -93,7 +95,8 @@
         var indexSum = function () {
             if ($(settings.index).length > 0) {
                 $(settings.index).html(('<em class="index">' + index + '</em>/<em class="count">' + $contents.length + '</em>'));
-            };
+            }
+            ;
         };
         indexSum();
 
@@ -104,18 +107,21 @@
                 switch (settings.load_type) {
                     case 'img':
                         $tempDate.each(function () {
-                            if ($(this).attr('data-src')) {
-                                $(this).attr('src', $(this).attr('data-src')).removeAttr('data-src');
+                            var self = this,$self = $(this);
+                            self.loaded = false;
+                            if(!self.loaded){
+                                $("<img />").bind('load',function(){
+                                    $self.hide().attr('src',$self.data('src')).show();
+                                    self.loaded = true;
+                                }).attr('src',$self.data('src'));
                             }
-                            ;
                         });
                         break;
                     case 'textarea':
                         $tempDate.css('visibility', 'hidden');
                         if ($tempDate.css('display') != 'none') {
                             $tempDate.before($tempDate.val()).hide();
-                        }
-                        ;
+                        };
                         break;
                 }
                 ;
@@ -156,9 +162,10 @@
 
         return this;
     },
-    $.fn.datalazyload = function () { //懒加载(滚动条滚动加载)
+        $.fn.datalazyload = function () { //懒加载(滚动条滚动加载)
             var $this = $(this);
-            $window.scroll(function () {
+
+            function update() {
                 var topH = $window.height() + $window.scrollTop();
                 $this.each(function () {
                     var $textarea = $(this).find('textarea').eq(0);
@@ -166,11 +173,15 @@
                     if ($textarea.css('display') != 'none' && topH >= $(this).offset().top) {
                         $textarea.before($textarea.val()).hide();
                     }
+                    ;
                 });
+            };
+            update();
+            $window.bind('scroll resize', function () {
+                update();
             });
-            $window.trigger('scroll');
         },
-    $.fn.avatarError = function () {  // 默认图片处理
+        $.fn.avatarError = function () {  // 默认图片处理
             $(this).each(function () {
                 this.onerror = function () {
                     this.onerror = null;

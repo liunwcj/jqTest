@@ -61,8 +61,7 @@
             $('img.J_lazy').each(function(){
                 var urlImg ="http://zhanweitu.com/300/200/" + ($(this).index()+1); //在线占位图
                 $(this).attr('data-original',urlImg);
-            });
-            $('img.J_lazy').lazyload({
+            }).lazyload({
                 effect: 'fadeIn'
             });
         });
